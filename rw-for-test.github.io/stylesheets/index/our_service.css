@@ -1,0 +1,47 @@
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+.our-service {
+  background: #f5f8fa; }
+  /* line 3, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+  .our-service .service-wrapper {
+    position: relative;
+    height: 500px; }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+  .our-service .service-banner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    z-index: 1; }
+    /* line 18, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+    .our-service .service-banner img {
+      width: 100%; }
+  /* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+  .our-service .service-items {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0; }
+  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+  .our-service .service-item-group {
+    border-bottom: 1px solid #bec1c5;
+    margin-bottom: 40px; }
+  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+  .our-service .service-item {
+    padding: 20px 0; }
+    /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+    .our-service .service-item > * {
+      display: inline-block;
+      vertical-align: middle; }
+  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+  .our-service .service-item-content {
+    margin-left: 20px; }
+    /* line 42, /Users/ruoshin/repos/test/source/stylesheets/index/our_service.scss */
+    .our-service .service-item-content .title {
+      font-size: 18px;
+      font-weight: bold; }

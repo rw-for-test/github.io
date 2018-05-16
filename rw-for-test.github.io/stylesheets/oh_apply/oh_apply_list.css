@@ -1,0 +1,9 @@
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_list.scss */
+.oh-apply-list {
+  padding-top: 20px; }
+  /* line 4, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_list.scss */
+  .oh-apply-list .row > [class*="col-"] {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -3px; }

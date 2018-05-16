@@ -1,0 +1,12 @@
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+.courses .course-box .course-img img {
+  width: 100%; }
+/* line 8, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+.courses .course-box .course-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+  line-height: 1.2; }
+/* line 14, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+.courses .course-box .course-description {
+  margin-bottom: 15px; }

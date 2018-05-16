@@ -1,0 +1,45 @@
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box .discount-img {
+  position: relative; }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  .discounts .discount-box .discount-img img {
+    width: 100%; }
+  /* line 10, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  .discounts .discount-box .discount-img .badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: normal; }
+/* line 20, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box .discount-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 15px; }
+  /* line 25, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  .discounts .discount-box .discount-title > span {
+    display: block; }
+/* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box .discount-body {
+  margin-top: 15px; }
+/* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.europe .badge, .discounts .discount-box.england .badge {
+  background: #eca40b; }
+/* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.asia .badge {
+  background: #039ea6; }
+/* line 43, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.canada .badge {
+  background: #df2137; }
+/* line 48, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.new-zealand .badge {
+  background: #8dc32c; }
+/* line 53, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.america .badge {
+  background: #144188; }
+/* line 58, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.australia .badge {
+  background: #d72150; }

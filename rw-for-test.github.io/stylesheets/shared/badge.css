@@ -1,0 +1,37 @@
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+.badge {
+  padding: 6px 8px;
+  border-radius: 3px;
+  font-weight: normal;
+  margin-right: 3px;
+  background: #242941; }
+  /* line 9, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.europe, .badge.england {
+    background: #eca40b; }
+  /* line 12, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.asia {
+    background: #039ea6; }
+  /* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.canada {
+    background: #df2137; }
+  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.new-zealand {
+    background: #8dc32c; }
+  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.america {
+    background: #144188; }
+  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.australia {
+    background: #d72150; }
+  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.taipei {
+    background: #062acd; }
+  /* line 30, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.hsinchu {
+    background: #df2137; }
+  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.taichung {
+    background: #ffb90c; }
+  /* line 36, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.kaohsuing {
+    background: #0a97ff; }

@@ -1,0 +1,46 @@
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+.oh-apply-selector {
+  position: relative;
+  cursor: pointer;
+  padding: 5px 0; }
+  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+  .oh-apply-selector .selector-label {
+    font-size: 18px; }
+    /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+    .oh-apply-selector .selector-label > span {
+      display: inline-block;
+      vertical-align: middle; }
+    /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+    .oh-apply-selector .selector-label:after {
+      content: '';
+      width: 18px;
+      height: 18px;
+      background-image: url("/images/icon-todo-replace.png");
+      background-size: cover;
+      display: inline-block;
+      vertical-align: middle; }
+  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+  .oh-apply-selector .selector-value {
+    display: none; }
+  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+  .oh-apply-selector .oh-apply-selector-options {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+    color: #000;
+    padding: 15px 20px;
+    width: 150px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px; }
+    /* line 36, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+    .oh-apply-selector .oh-apply-selector-options > li {
+      padding: 5px 0; }
+      /* line 38, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+      .oh-apply-selector .oh-apply-selector-options > li:hover {
+        opacity: 0.5; }
+  /* line 44, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_selector.scss */
+  .oh-apply-selector.is-open .oh-apply-selector-options {
+    display: block; }

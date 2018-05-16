@@ -1,0 +1,25 @@
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+.oh-apply-header {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+  /* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+  .oh-apply-header .oh-apply-header-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0; }
+    /* line 8, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    .oh-apply-header .oh-apply-header-title > span:after {
+      content: ' / '; }
+    /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    .oh-apply-header .oh-apply-header-title > span:last-child:after {
+      content: ''; }
+  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+  .oh-apply-header .oh-apply-header-tabs {
+    padding-bottom: 15px; }
+    /* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    .oh-apply-header .oh-apply-header-tabs > li {
+      display: inline-block;
+      font-size: 18px;
+      margin-right: 50px; }
+      /* line 24, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+      .oh-apply-header .oh-apply-header-tabs > li.active {
+        font-weight: bold; }

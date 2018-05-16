@@ -1,0 +1,68 @@
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+.content-title {
+  font-size: 24px; }
+  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-title:before {
+    content: '';
+    width: 6px;
+    height: 18px;
+    background: #df2137;
+    display: inline-block;
+    margin-right: 5px; }
+
+/* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+.content-sub-title {
+  font-size: 18px;
+  font-weight: bold; }
+
+/* line 20, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+.content-table {
+  width: 100%; }
+  /* line 22, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-table .content-table-title {
+    font-weight: bold;
+    width: 30%; }
+    /* line 25, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    .content-table .content-table-title.t-lg {
+      width: 50%; }
+  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-table .datetime {
+    width: 120px; }
+  /* line 32, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-table .modal-toggler {
+    cursor: pointer; }
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-table tr {
+    border-bottom: 1px solid #c5c6c8; }
+    /* line 37, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    .content-table tr:last-child {
+      border-bottom: none; }
+  /* line 41, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-table td {
+    vertical-align: top;
+    padding: 20px 0; }
+
+/* line 47, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+.content-menu {
+  float: left;
+  margin-right: 100px; }
+  /* line 50, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-menu > li {
+    font-size: 16px;
+    padding-bottom: 10px; }
+    /* line 53, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    .content-menu > li.active {
+      font-size: 24px;
+      font-weight: bold; }
+      /* line 56, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+      .content-menu > li.active:before {
+        content: '';
+        width: 6px;
+        height: 18px;
+        background: #df2137;
+        display: inline-block;
+        margin-right: 5px; }
+
+/* line 68, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+.content-list {
+  overflow: hidden; }

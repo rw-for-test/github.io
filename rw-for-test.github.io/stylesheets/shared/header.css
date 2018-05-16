@@ -1,0 +1,120 @@
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+.l-header {
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+  .l-header .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 175px; }
+    /* line 12, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+    .l-header .logo img {
+      display: block;
+      width: 100%; }
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+  .l-header .reservation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%; }
+    /* line 22, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+    .l-header .reservation:after {
+      content: '';
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle; }
+    /* line 28, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+    .l-header .reservation .btn-reservation {
+      display: inline-block;
+      vertical-align: middle;
+      background: #df2137;
+      color: #fff;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      padding: 8px 25px; }
+  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+  .l-header .menu {
+    margin-left: 175px; }
+    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+    .l-header .menu > li {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 50px;
+      padding: 27px 0; }
+      /* line 47, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu > li .menu-label {
+        cursor: pointer;
+        font-size: 18px;
+        padding-bottom: 5px; }
+      /* line 53, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu > li:hover .menu-label {
+        border-bottom: 2px solid #df2137; }
+      /* line 56, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu > li:hover .sub-menu {
+        display: block; }
+      /* line 61, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu > li.active .menu-label {
+        color: #df2137;
+        border-bottom: 2px solid #df2137; }
+    /* line 67, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+    .l-header .menu .sub-menu {
+      position: absolute;
+      top: 0;
+      margin-top: calc(80px - 10px);
+      display: none;
+      font-size: 13px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+      z-index: 2; }
+      /* line 78, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu .sub-menu-label {
+        font-weight: bold;
+        overflow: hidden;
+        line-height: 1.2; }
+      /* line 83, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu .sub-menu-list {
+        float: right;
+        padding: 0 20px; }
+        /* line 86, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+        .l-header .menu .sub-menu .sub-menu-list a {
+          margin-bottom: 8px; }
+      /* line 90, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu > li {
+        display: inline-block;
+        vertical-align: top;
+        border-right: 1px solid #ccc; }
+        /* line 94, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+        .l-header .menu .sub-menu > li:last-child {
+          border-right: none; }
+        /* line 98, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+        .l-header .menu .sub-menu > li + li .sub-menu-label {
+          margin-left: 20px; }
+      /* line 108, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu a {
+        display: block;
+        text-decoration: none;
+        margin-bottom: 15px;
+        line-height: 1.2; }
+        /* line 113, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+        .l-header .menu .sub-menu a:hover {
+          opacity: 0.5; }
+        /* line 116, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+        .l-header .menu .sub-menu a:last-child {
+          margin-bottom: 0; }
+      /* line 120, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu.search-school {
+        width: 485px; }
+      /* line 123, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu.news {
+        width: 105px; }
+      /* line 126, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu.events {
+        width: 156px; }
+      /* line 129, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
+      .l-header .menu .sub-menu.about {
+        width: 168px; }

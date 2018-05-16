@@ -1,0 +1,15 @@
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
+.banner {
+  position: relative;
+  height: 270px;
+  width: 100%;
+  background-image: url("/images/bg-news-banner.png");
+  background-size: cover;
+  background-position: center center; }
+  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
+  .banner h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: #fff; }

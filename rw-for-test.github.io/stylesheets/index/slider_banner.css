@@ -1,0 +1,20 @@
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+#slider-banner .carousel-inner .item {
+  height: 500px; }
+  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+  #slider-banner .carousel-inner .item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 500px;
+    width: 100%; }
+/* line 15, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+#slider-banner .carousel-control {
+  text-shadow: none; }
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+  #slider-banner .carousel-control.left, #slider-banner .carousel-control.right {
+    background: none; }
+/* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+#slider-banner .carousel-indicators {
+  text-align: right; }

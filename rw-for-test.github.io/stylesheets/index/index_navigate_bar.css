@@ -1,0 +1,46 @@
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+.index-navigate-bar {
+  background: #242941;
+  height: 60px; }
+  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  .index-navigate-bar .index-navigate-bar-menu {
+    text-align: justify;
+    padding: 20px 40px 0 40px;
+    font-size: 18px;
+    line-height: 1; }
+    /* line 11, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .index-navigate-bar-menu li {
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+      color: #fff; }
+      /* line 16, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      .index-navigate-bar .index-navigate-bar-menu li > a {
+        color: #fff; }
+        /* line 18, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+        .index-navigate-bar .index-navigate-bar-menu li > a:hover {
+          opacity: 1; }
+    /* line 23, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .index-navigate-bar-menu:after {
+      content: '';
+      display: inline-block;
+      width: 100%; }
+  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  .index-navigate-bar.is-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background: rgba(36, 41, 65, 0.95); }
+    /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar.is-sticky .index-navigate-bar-menu {
+      text-align: left; }
+    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar.is-sticky li {
+      margin-right: 30px; }
+      /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      .index-navigate-bar.is-sticky li > a {
+        opacity: 0.5; }
+      /* line 44, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      .index-navigate-bar.is-sticky li.active > a {
+        opacity: 1; }

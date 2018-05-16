@@ -1,0 +1,44 @@
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+.l-footer {
+  position: relative;
+  background: #062acd;
+  color: #fff; }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+  .l-footer .privacy {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40px;
+    width: 30%; }
+  /* line 14, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+  .l-footer .social-medias {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center; }
+    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+    .l-footer .social-medias .social-media {
+      display: inline-block;
+      vertical-align: middle;
+      border: 2px solid #fff;
+      border-radius: 100%;
+      margin-right: 5px;
+      padding: 10px; }
+      /* line 28, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+      .l-footer .social-medias .social-media img {
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin: 0 auto; }
+  /* line 36, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+  .l-footer .back-to-top {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px; }
+    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+    .l-footer .back-to-top > * {
+      display: inline-block;
+      vertical-align: middle; }
