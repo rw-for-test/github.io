@@ -7,45 +7,67 @@
   left: 0;
   right: 0;
   z-index: 99;
-  background: rgba(35, 41, 65, 0.9); }
-  /* line 12, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  background: rgba(35, 41, 65, 0.95);
+  overflow-y: auto; }
+  /* line 13, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .search-field {
     position: relative;
-    border-bottom: 1px solid #979797;
+    border-bottom: 1px solid #6f7075;
     margin-top: 100px; }
-    /* line 16, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .search-field > * {
       display: inline-block;
       vertical-align: middle; }
-  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .search-field-input {
     width: calc( 100% - 200px );
-    font-size: 30px;
+    font-size: 32px;
     background: none;
     border: none;
     padding: 20px 10px;
     color: #fff;
     outline: none; }
-  /* line 30, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 31, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .search-field-button {
     position: absolute;
     top: 15px;
     right: 0;
     color: #fff;
     border-color: #fff; }
-  /* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .popular-keyword {
-    margin-top: 50px; }
-    /* line 39, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    margin-top: 40px; }
+    /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .popular-keyword .popular-keyword-header {
-      color: rgba(255, 255, 255, 0.3);
-      font-weight: bold; }
-  /* line 44, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .popular-keyword .popular-keyword-body {
+      width: 60%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; }
+      /* line 49, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+      #global-search .popular-keyword .popular-keyword-body .keyword {
+        display: inline-block;
+        margin-right: 2em;
+        color: #fff;
+        margin-bottom: 10px; }
+  /* line 57, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .l-container {
     overflow: hidden; }
-  /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .btn-close {
     position: absolute;
-    top: 30px;
-    right: 0;
-    background: none; }
+    top: 40px;
+    right: 40px;
+    background: none;
+    border: none;
+    z-index: 99; }
+    /* line 67, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .btn-close .icon-close {
+      width: 40px;
+      height: 40px; }
+    /* line 71, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .btn-close:hover {
+      opacity: 0.5; }
