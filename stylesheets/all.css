@@ -8453,78 +8453,90 @@ ul {
     color: #fff;
     padding: 5px; }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   /* line 2, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  h2 {
-    padding: 40px 0; }
-
-  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .button-center-align {
-    padding: 30px 0; }
-
-  /* line 9, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .index-news .news-block {
-    margin-bottom: 40px; }
-
-  /* line 14, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .countries .col-sm-3 {
-    height: auto; }
-  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .countries .country-grid {
-    height: auto; }
-  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .countries .country-box.h-2x {
-    height: 230px; }
-
-  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .sharing-box {
-    margin: 0 10% 40px; }
-
-  /* line 30, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .our-service h2 {
-    padding: 40px 0; }
-
-  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .l-footer .social-medias .social-media img {
-    width: 30px;
-    height: 30px; } }
+  .l-container {
+    width: auto;
+    padding: 0 40px; } }
 @media (max-width: 992px) {
-  /* line 41, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 9, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .course-box {
     text-align: center;
     margin-bottom: 40px; }
 
-  /* line 45, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 13, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .discount-box {
     margin-bottom: 40px; }
 
-  /* line 49, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-banner {
     display: none; }
-  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-wrapper {
     height: 240px; }
-  /* line 55, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 23, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-item-group {
     border-bottom: none;
     margin-bottom: 0; }
-  /* line 59, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-items {
     left: 10%;
     right: 10%; }
 
-  /* line 64, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 32, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .office {
     padding: 80px 0 40px; }
-    /* line 66, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .office .office-box {
       margin-bottom: 40px; }
 
-  /* line 73, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 41, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .popular-keyword .popular-keyword-body {
     width: 100%; } }
-@media (max-width: 1024px) {
-  /* line 81, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .l-container {
-    width: auto;
-    padding: 0 40px; } }
+@media (max-width: 768px) {
+  /* line 49, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  h2 {
+    padding: 40px 0; }
+
+  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .button-center-align {
+    padding: 30px 0; }
+
+  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .index-news .news-block {
+    margin-bottom: 40px; }
+
+  /* line 61, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .countries .col-sm-3 {
+    height: auto; }
+  /* line 64, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .countries .country-grid {
+    height: auto; }
+  /* line 68, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .countries .country-box.h-2x {
+    height: 230px; }
+
+  /* line 73, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .sharing-box {
+    margin: 0 10% 40px; }
+
+  /* line 77, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .our-service h2 {
+    padding: 40px 0; }
+  /* line 80, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .our-service .service-wrapper {
+    height: auto; }
+  /* line 83, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .our-service .service-items {
+    position: static;
+    transform: translateY(0); }
+  /* line 87, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .our-service .service-item {
+    /* overwrite pull-left and pull-right */
+    float: none !important;
+    text-align: center; }
+
+  /* line 93, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .l-footer .social-medias .social-media img {
+    width: 30px;
+    height: 30px; } }
