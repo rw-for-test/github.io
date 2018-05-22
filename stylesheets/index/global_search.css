@@ -15,10 +15,14 @@
     border-bottom: 1px solid #6f7075;
     margin-top: 100px; }
     /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .search-field .icon-search {
+      width: 20px;
+      height: 20px; }
+    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .search-field > * {
       display: inline-block;
       vertical-align: middle; }
-  /* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .search-field-input {
     width: calc( 100% - 200px );
     font-size: 32px;
@@ -27,36 +31,52 @@
     padding: 20px 10px;
     color: #fff;
     outline: none; }
-  /* line 31, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .search-field-input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #6f7075; }
+    /* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .search-field-input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #6f7075; }
+    /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .search-field-input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #6f7075; }
+    /* line 43, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    #global-search .search-field-input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #6f7075; }
+  /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .search-field-button {
     position: absolute;
     top: 15px;
     right: 0;
     color: #fff;
     border-color: #fff; }
-  /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 54, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .popular-keyword {
     margin-top: 40px; }
-    /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    /* line 56, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .popular-keyword .popular-keyword-header {
       color: #fff;
       font-weight: bold;
       margin-bottom: 20px; }
-    /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    /* line 61, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .popular-keyword .popular-keyword-body {
       width: 60%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr; }
-      /* line 49, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+      /* line 65, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
       #global-search .popular-keyword .popular-keyword-body .keyword {
         display: inline-block;
         margin-right: 2em;
         color: #fff;
         margin-bottom: 10px; }
-  /* line 57, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 73, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .l-container {
     overflow: hidden; }
-  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+  /* line 76, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
   #global-search .btn-close {
     position: absolute;
     top: 40px;
@@ -64,10 +84,10 @@
     background: none;
     border: none;
     z-index: 99; }
-    /* line 67, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    /* line 83, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .btn-close .icon-close {
       width: 40px;
       height: 40px; }
-    /* line 71, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
+    /* line 87, /Users/ruoshin/repos/test/source/stylesheets/index/global_search.scss */
     #global-search .btn-close:hover {
       opacity: 0.5; }

@@ -42,3 +42,7 @@
     .l-footer .back-to-top > * {
       display: inline-block;
       vertical-align: middle; }
+    /* line 45, /Users/ruoshin/repos/test/source/stylesheets/shared/footer.scss */
+    .l-footer .back-to-top img {
+      width: 70px;
+      height: 70px; }
