@@ -1,0 +1,9 @@
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+#slider-events .carousel-control {
+  text-shadow: none; }
+  /* line 4, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+  #slider-events .carousel-control.left, #slider-events .carousel-control.right {
+    background: none; }
+/* line 9, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+#slider-events .carousel-caption h3 {
+  margin-bottom: 10px; }

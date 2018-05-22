@@ -3,35 +3,38 @@
   padding: 6px 8px;
   border-radius: 3px;
   font-weight: normal;
-  margin-right: 3px;
-  background: #242941; }
+  margin-right: 6px;
+  background: #232941; }
   /* line 9, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.europe, .badge.england {
-    background: #eca40b; }
+  .badge.england {
+    background: #eda409; }
   /* line 12, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.asia {
-    background: #039ea6; }
+  .badge.europe {
+    background: #ed6109; }
   /* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.canada {
-    background: #df2137; }
+  .badge.asia {
+    background: #01a1a3; }
   /* line 18, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.new-zealand {
-    background: #8dc32c; }
+  .badge.canada {
+    background: #de1e37; }
   /* line 21, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.america {
-    background: #144188; }
+  .badge.new-zealand {
+    background: #8dc22c; }
   /* line 24, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.australia {
-    background: #d72150; }
+  .badge.america {
+    background: #154188; }
   /* line 27, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.taipei {
-    background: #062acd; }
+  .badge.australia {
+    background: #d70050; }
   /* line 30, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.hsinchu {
-    background: #df2137; }
+  .badge.taipei {
+    background: #0629cc; }
   /* line 33, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  .badge.hsinchu {
+    background: #de1e37; }
+  /* line 36, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.taichung {
     background: #ffb90c; }
-  /* line 36, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
+  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.kaohsuing {
-    background: #0a97ff; }
+    background: #0898ff; }

@@ -1,6 +1,6 @@
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
 .index-navigate-bar {
-  background: #242941;
+  background: #12007c;
   height: 60px; }
   /* line 6, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar .index-navigate-bar-menu {
@@ -31,7 +31,7 @@
     top: 0;
     width: 100%;
     z-index: 3;
-    background: rgba(36, 41, 65, 0.95); }
+    background: rgba(18, 0, 124, 0.95); }
     /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky .index-navigate-bar-menu {
       text-align: left; }

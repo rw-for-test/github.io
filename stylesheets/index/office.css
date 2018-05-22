@@ -1,6 +1,6 @@
 /* line 4, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
 .office {
-  padding: 200px 0;
+  padding: 80px 0;
   background-image: url("/images/bg-america.png");
   background-size: cover;
   background-position: center center; }
@@ -21,38 +21,47 @@
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0 10px; }
+    margin: 30px 0 10px; }
   /* line 28, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box .office-information {
     margin: 0 auto; }
   /* line 31, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box .office-map {
-    margin-top: 20px;
-    text-align: center; }
-    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+    margin-top: 20px; }
+    /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
     .office .office-box .office-map > a {
-      display: block; }
-  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+      width: 40px;
+      height: 40px;
+      display: block;
+      background-image: url("/images/landing/btn_location_normal.png");
+      background-size: cover;
+      background-position: center center;
+      margin: 0 auto; }
+      /* line 41, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+      .office .office-box .office-map > a:hover {
+        opacity: 1;
+        background-image: url("/images/landing/btn_location_hover.png"); }
+  /* line 48, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.taipei .office-icon {
-    background: #062acd; }
-  /* line 42, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+    background: #0629cc; }
+  /* line 51, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.taipei .office-information {
     width: 180px; }
-  /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.hsinchu .office-icon {
-    background: #df2137; }
-  /* line 50, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+    background: #de1e37; }
+  /* line 59, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.hsinchu .office-information {
     width: 145px; }
-  /* line 55, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+  /* line 64, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.taichung .office-icon {
     background: #ffb90c; }
-  /* line 58, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+  /* line 67, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.taichung .office-information {
     width: 220px; }
-  /* line 63, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+  /* line 72, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.kaohsuing .office-icon {
-    background: #0a97ff; }
-  /* line 66, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
+    background: #0898ff; }
+  /* line 75, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
   .office .office-box.kaohsuing .office-information {
     width: 220px; }

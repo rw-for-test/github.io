@@ -1,44 +1,52 @@
 /* line 5, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block .news-block-header {
   font-size: 18px;
+  font-weight: bold;
   color: #fff;
-  padding: 14px 20px;
+  padding: 10px 20px;
   border-radius: 3px;
-  box-shadow: 0 6px 12px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px -1px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px; }
-  /* line 12, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  /* line 13, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
   .index-news .news-block .news-block-header img, .index-news .news-block .news-block-header span {
     display: inline-block;
     vertical-align: middle; }
-  /* line 16, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
   .index-news .news-block .news-block-header img {
-    margin-right: 5px; }
-/* line 20, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+    width: 40px;
+    margin-right: 6px; }
+/* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block .news-block-body {
-  padding: 20px 0; }
-  /* line 23, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  padding: 20px 0 30px;
+  margin: 0 20px; }
+  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
   .index-news .news-block .news-block-body .news-block-list li {
-    margin-bottom: 14px;
+    margin-bottom: 15px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap; }
-    /* line 28, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+    /* line 31, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+    .index-news .news-block .news-block-body .news-block-list li > a {
+      display: inline; }
+    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
     .index-news .news-block .news-block-body .news-block-list li:last-child {
       margin-bottom: 0; }
-  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
-  .index-news .news-block .news-block-body .date {
-    margin-right: 15px; }
-/* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
-.index-news .news-block .news-block-footer {
-  border-top: 1px solid #c5c6c8; }
   /* line 39, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  .index-news .news-block .news-block-body .date {
+    color: #6f7075;
+    margin-right: 15px; }
+/* line 44, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+.index-news .news-block .news-block-footer {
+  margin: 0 20px;
+  border-top: 1px solid #c5c6c8; }
+  /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
   .index-news .news-block .news-block-footer a {
-    color: #0a97ff;
-    margin-top: 8px;
+    color: #0898ff;
+    margin-top: 10px;
     display: block; }
-/* line 46, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+/* line 54, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block.latest .news-block-header {
-  background: #062acd; }
-/* line 51, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  background: #0629cc; }
+/* line 59, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block.lecture-course .news-block-header {
-  background: #df2137; }
+  background: #de1e37; }

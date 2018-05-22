@@ -1,0 +1,21 @@
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/consultant.scss */
+.consultant .consultant-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 0; }
+/* line 7, /Users/ruoshin/repos/test/source/stylesheets/consultant.scss */
+.consultant .web-form {
+  padding-bottom: 20px; }
+/* line 10, /Users/ruoshin/repos/test/source/stylesheets/consultant.scss */
+.consultant .form-label {
+  font-weight: normal;
+  display: block; }
+/* line 14, /Users/ruoshin/repos/test/source/stylesheets/consultant.scss */
+.consultant .form-group {
+  margin-bottom: 20px; }
+/* line 17, /Users/ruoshin/repos/test/source/stylesheets/consultant.scss */
+.consultant .message {
+  margin-top: 24px; }
+/* line 20, /Users/ruoshin/repos/test/source/stylesheets/consultant.scss */
+.consultant .checkbox-inline, .consultant .radio-inline {
+  margin-top: 10px; }

@@ -1,0 +1,26 @@
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/osstudent.scss */
+.osstudent .osstudent-country-bar {
+  font-size: 20px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); }
+  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/osstudent.scss */
+  .osstudent .osstudent-country-bar li {
+    padding: 15px 0;
+    margin-right: 40px;
+    display: inline-block; }
+    /* line 10, /Users/ruoshin/repos/test/source/stylesheets/osstudent.scss */
+    .osstudent .osstudent-country-bar li.active {
+      font-weight: bold; }
+/* line 15, /Users/ruoshin/repos/test/source/stylesheets/osstudent.scss */
+.osstudent .experience-sharing {
+  padding: 80px 0; }
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/osstudent.scss */
+  .osstudent .experience-sharing .sharing-box {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 30px;
+    padding: 10px; }
+    /* line 23, /Users/ruoshin/repos/test/source/stylesheets/osstudent.scss */
+    .osstudent .experience-sharing .sharing-box .content {
+      text-align: left; }

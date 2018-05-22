@@ -1,7 +1,9 @@
+//Slider banner
 $('.carousel').carousel({
   interval: 5000
 })
 
+//Navigate to section
 $('.scrollTo').click(function() {
   var getElem = $(this).attr('href');
   var targetDistance = 20;
@@ -14,6 +16,7 @@ $('.scrollTo').click(function() {
   return false;
 })
 
+//Fix index navigate bar if scroll down
 var indexNavigateBar = $('.index-navigate-bar')
 if(indexNavigateBar.length > 0){
   var offsetTop = indexNavigateBar.offset().top
@@ -28,10 +31,13 @@ if(indexNavigateBar.length > 0){
   })
 }
 
+//Open global search pop-up
 $('.index-navigate-bar-menu .search').click(function(){
   $('#global-search').css('display', 'block');
   $('body').css('overflow', 'hidden');
 })
+
+//Close global search pop-up
 $('#global-search .btn-close').click(function(){
   $('#global-search').css('display', 'none');
   $('body').css('overflow', 'auto');

@@ -5,7 +5,7 @@
 .courses .course-box .course-title {
   font-size: 18px;
   font-weight: bold;
-  margin: 15px 0;
+  margin: 20px 0 10px;
   line-height: 1.2; }
 /* line 14, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
 .courses .course-box .course-description {

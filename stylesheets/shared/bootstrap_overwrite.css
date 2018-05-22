@@ -1,63 +1,114 @@
-/* line 5, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
-.btn, .btn:focus, .btn:active, .btn:focus, .btn:focus:focus, .btn:focus:active, .btn:active, .btn:active:focus, .btn:active:active {
-  outline: none; }
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.btn {
+  font-size: 14px;
+  outline: none;
+  padding: 15px 30px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all .2s; }
+  /* line 10, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn.btn-secondary {
+    border: 2px solid #232941;
+    color: #232941;
+    background: none;
+    outline: none; }
+    /* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .btn.btn-secondary:hover, .btn.btn-secondary:active {
+      background: #232941;
+      color: #fff; }
+  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn.btn-primary {
+    background: #de1e37;
+    color: #fff;
+    border: none; }
+    /* line 24, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .btn.btn-primary:hover, .btn.btn-primary:active {
+      background: #b31018; }
+    /* line 28, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .btn.btn-primary:focus, .btn.btn-primary:focus:focus, .btn.btn-primary:focus:active, .btn.btn-primary:active, .btn.btn-primary:active:focus, .btn.btn-primary:active:active {
+      background: #b31018; }
+  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn.btn-link-style {
+    color: #0898ff;
+    padding: 0;
+    height: auto;
+    line-height: 1; }
+    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .btn.btn-link-style:hover, .btn.btn-link-style:active {
+      color: #0898ff;
+      font-weight: bold; }
+  /* line 43, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn.btn-lg {
+    font-size: 18px;
+    padding: 18px 40px;
+    height: 60px; }
+  /* line 48, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn:hover {
+    opacity: 1; }
+  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn, .btn:focus, .btn:active, .btn:focus, .btn:focus:focus, .btn:focus:active, .btn:active, .btn:active:focus, .btn:active:active {
+    outline: none;
+    box-shadow: none; }
+  /* line 57, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .btn.disabled, .btn[disabled] {
+    opacity: 0.4; }
 
-/* line 13, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 64, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .nav > li > a {
   display: inline;
   padding: 0; }
-  /* line 16, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 67, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .nav > li > a:hover, .nav > li > a:focus {
     background: none; }
 
-/* line 23, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
-select.form-control {
-  border: none;
+/* line 74, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.form-control {
+  border-color: #f2f5f7;
   box-shadow: none;
   border-radius: 3px;
   background: #f2f5f7; }
 
-/* line 30, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 81, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal-backdrop {
-  background-color: #242941; }
-  /* line 32, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  background-color: #232941; }
+  /* line 83, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal-backdrop.in {
     opacity: 0.9; }
 
-/* line 37, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 88, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .pagination {
   margin: 40px 0 0; }
-  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 91, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .pagination > li > a {
     border: none;
     padding: 2px 6px;
     margin: 0 2px;
     border-radius: 3px;
     line-height: 1.2;
-    color: #242941; }
-  /* line 50, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    color: #232941; }
+  /* line 101, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .pagination .active > a {
     border: none;
-    background: #062acd; }
+    background: #0629cc; }
 
-/* line 59, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 109, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-dialog {
   width: 700px; }
-/* line 62, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 112, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-content {
   box-shadow: none; }
-/* line 65, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 115, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-header {
   padding: 40px;
   border-bottom: none; }
-  /* line 68, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 118, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-header .modal-title {
     font-size: 22px;
     font-weight: bold; }
-/* line 73, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 123, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-body {
   padding: 0 40px 40px;
   line-height: 1.7; }
-  /* line 76, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 126, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-body img {
     width: 100%; }

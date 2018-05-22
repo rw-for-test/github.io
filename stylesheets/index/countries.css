@@ -21,9 +21,10 @@
   width: 100%;
   height: 230px;
   margin: 10px auto;
-  background-size: cover;
-  background-position: center center; }
-  /* line 28, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  background-size: 100%;
+  background-position: center center;
+  transition: background-size 0.3s; }
+  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box .country-name {
     position: absolute;
     top: 50%;
@@ -33,16 +34,47 @@
     color: #fff;
     font-size: 24px;
     font-weight: bold; }
-    /* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box .country-name > span {
-      display: block;
-      line-height: 1.2; }
+      display: block; }
     /* line 41, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box .country-name .en {
       font-weight: normal; }
   /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+    transition: background 0.2s; }
+  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box:hover {
+    background-size: 110%; }
+    /* line 58, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    .countries .country-box:hover:before {
+      background: rgba(35, 41, 65, 0.85); }
+  /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box.h-2x {
     height: 100%; }
-  /* line 48, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 65, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box.america {
+    background-image: url("/images/bg-america.png"); }
+  /* line 68, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box.australia {
+    background-image: url("/images/bg-america.png"); }
+  /* line 71, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box.england {
+    background-image: url("/images/bg-america.png"); }
+  /* line 74, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box.new-zealand {
+    background-image: url("/images/bg-america.png"); }
+  /* line 77, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box.europe {
+    background-image: url("/images/bg-america.png"); }
+  /* line 80, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  .countries .country-box.canada {
     background-image: url("/images/bg-america.png"); }

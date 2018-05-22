@@ -10,36 +10,42 @@
     top: 0;
     left: 0;
     border-radius: 0;
-    padding-top: 10px;
-    font-size: 13px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     font-weight: normal; }
 /* line 20, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box .discount-title {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.2;
-  margin-top: 15px; }
+  margin: 20px 0 10px; }
   /* line 25, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
   .discounts .discount-box .discount-title > span {
     display: block; }
-/* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  /* line 28, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  .discounts .discount-box .discount-title .en {
+    margin-bottom: 5px; }
+/* line 32, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box .discount-body {
   margin-top: 15px; }
-/* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
-.discounts .discount-box.europe .badge, .discounts .discount-box.england .badge {
-  background: #eca40b; }
-/* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+/* line 36, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.england .badge {
+  background: #eda409; }
+/* line 41, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+.discounts .discount-box.europe .badge {
+  background: #ed6109; }
+/* line 46, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box.asia .badge {
-  background: #039ea6; }
-/* line 43, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  background: #01a1a3; }
+/* line 51, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box.canada .badge {
-  background: #df2137; }
-/* line 48, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  background: #de1e37; }
+/* line 56, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box.new-zealand .badge {
-  background: #8dc32c; }
-/* line 53, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  background: #8dc22c; }
+/* line 61, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box.america .badge {
-  background: #144188; }
-/* line 58, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
+  background: #154188; }
+/* line 66, /Users/ruoshin/repos/test/source/stylesheets/index/discounts.scss */
 .discounts .discount-box.australia .badge {
-  background: #d72150; }
+  background: #d70050; }

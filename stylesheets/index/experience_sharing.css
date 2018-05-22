@@ -1,42 +1,41 @@
-/* line 3, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-.experience-sharing {
-  padding-bottom: 80px; }
-  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-  .experience-sharing .sharing-box {
-    text-align: center; }
-    /* line 7, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-    .experience-sharing .sharing-box .sharing-img {
-      width: 200px;
-      margin: 0 auto; }
-      /* line 10, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-      .experience-sharing .sharing-box .sharing-img img {
-        border-radius: 100%;
-        width: 100%; }
-    /* line 15, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-    .experience-sharing .sharing-box .sharing-header {
-      margin: 20px 0; }
-      /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-      .experience-sharing .sharing-box .sharing-header .title {
-        font-size: 18px;
-        font-weight: bold; }
-      /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-      .experience-sharing .sharing-box .sharing-header .sub-title {
-        color: #6f7074; }
-    /* line 26, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-    .experience-sharing .sharing-box .sharing-body .text {
-      margin-bottom: 5px; }
-    /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-    .experience-sharing .sharing-box .sharing-body .more {
-      color: #0a97ff; }
-    /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-    .experience-sharing .sharing-box .sharing-footer {
-      padding-top: 20px; }
-      /* line 36, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-      .experience-sharing .sharing-box .sharing-footer .btn > * {
-        display: inline-block;
-        vertical-align: middle; }
-      /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
-      .experience-sharing .sharing-box .sharing-footer .btn img {
-        width: 16px;
-        height: 16px;
-        margin-left: 5px; }
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+.experience-sharing .sharing-box {
+  text-align: center; }
+  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto; }
+    /* line 10, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+    .experience-sharing .sharing-box .sharing-img img {
+      border-radius: 100%;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0 6px 12px -1px rgba(0, 0, 0, 0.2); }
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-header {
+    margin: 40px 0 10px; }
+    /* line 19, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+    .experience-sharing .sharing-box .sharing-header .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 2px; }
+    /* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+    .experience-sharing .sharing-box .sharing-header .sub-title {
+      color: #6f7075; }
+  /* line 28, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-body {
+    margin-bottom: 20px; }
+  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-footer .btn > * {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-footer .btn .icon-play {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px; }
+  /* line 43, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-footer .divider {
+    color: #c5c6c8;
+    margin: 0 10px; }
