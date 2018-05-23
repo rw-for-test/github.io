@@ -6,4 +6,5 @@
     background: none; }
 /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
 #slider-banner .carousel-indicators {
-  text-align: right; }
+  text-align: right;
+  z-index: 1; }

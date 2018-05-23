@@ -2,115 +2,199 @@
   /* line 2, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .l-container {
     width: auto;
-    padding: 0 40px; } }
-@media (max-width: 992px) {
-  /* line 9, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    padding: 0 40px; }
+
+  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .l-header {
+    padding: 0 20px; }
+    /* line 8, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-header .logo {
+      width: 100px; }
+    /* line 11, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-header .menu {
+      margin-left: 60px; }
+      /* line 13, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      .l-header .menu > li {
+        margin-left: 20px; }
+    /* line 18, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-header .reservation .btn {
+      height: 40px;
+      padding: 8px 20px; } }
+@media (max-width: 991px) {
+  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .course-box {
     text-align: center;
     margin-bottom: 40px; }
 
-  /* line 13, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 31, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .discount-box {
     margin-bottom: 40px; }
 
-  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-banner {
     display: none; }
-  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 38, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-wrapper {
     height: 240px; }
-  /* line 23, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 41, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-item-group {
     border-bottom: none;
     margin-bottom: 0; }
-  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 45, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-items {
     left: 10%;
     right: 10%; }
 
-  /* line 32, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 50, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .office {
     padding: 80px 0 40px; }
-    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 52, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .office .office-box {
       margin-bottom: 40px; }
 
-  /* line 41, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 59, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .popular-keyword .popular-keyword-body {
-    width: 100%; } }
-@media (max-width: 768px) {
-  /* line 49, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    width: 100%; }
+
+  /* line 64, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .l-footer {
+    height: 360px; }
+    /* line 66, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-footer .information-wrapper {
+      height: 230px; }
+    /* line 69, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-footer .back-to-top {
+      top: 20px;
+      right: 0;
+      transform: translateY(0);
+      width: 100%;
+      text-align: center;
+      padding-left: 20px; }
+    /* line 77, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-footer .social-medias {
+      top: 90px;
+      transform: translateY(0); }
+    /* line 81, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .l-footer .privacy {
+      left: 0;
+      top: 180px;
+      transform: translateY(0);
+      width: 100%;
+      text-align: center; }
+      /* line 87, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      .l-footer .privacy > * {
+        display: block; }
+      /* line 91, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      .l-footer .privacy .privacy-button:after {
+        content: ''; } }
+@media (max-width: 767px) {
+  /* line 100, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   h2 {
     padding: 40px 0; }
 
-  /* line 53, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 103, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .modal .modal-dialog {
+    width: auto; }
+
+  /* line 107, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .l-header .l-container {
     padding: 0; }
-  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 110, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .l-header .navbar-toggle {
+    margin-top: 22px; }
+  /* line 113, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .l-header .navbar-collapse {
+    background: #fff; }
+  /* line 116, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .l-header .logo {
-    top: 18px;
+    top: 22px;
     transform: translateY(0); }
-  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 120, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .l-header .reservation {
     position: static; }
-  /* line 63, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 123, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .l-header .menu {
-    background: #fff;
     margin: 0; }
-    /* line 66, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 125, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .l-header .menu > li {
       display: block;
       margin-left: 0;
       padding: 5px 0; }
-    /* line 71, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 130, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .l-header .menu .sub-menu {
       display: block;
       position: static;
       box-shadow: none;
       margin-top: 0; }
-      /* line 76, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      /* line 135, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      .l-header .menu .sub-menu > li {
+        display: block;
+        border: none; }
+      /* line 139, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
       .l-header .menu .sub-menu.search-school, .l-header .menu .sub-menu.student-sharing, .l-header .menu .sub-menu.news, .l-header .menu .sub-menu.events, .l-header .menu .sub-menu.about {
         width: 100%; }
 
-  /* line 86, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 149, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .button-center-align {
     padding: 30px 0; }
 
-  /* line 90, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 153, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .index-news .news-block {
     margin-bottom: 40px; }
 
-  /* line 95, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 158, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .countries .col-sm-3 {
     height: auto; }
-  /* line 98, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 161, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .countries .country-grid {
     height: auto; }
-  /* line 102, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 165, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .countries .country-box.h-2x {
     height: 230px; }
 
-  /* line 107, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 170, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .sharing-box {
     margin: 0 10% 40px; }
 
-  /* line 111, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 174, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service h2 {
     padding: 40px 0; }
-  /* line 114, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 177, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-wrapper {
     height: auto; }
-  /* line 117, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 180, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-items {
     position: static;
     transform: translateY(0); }
-  /* line 121, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 184, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-item {
     /* overwrite pull-left and pull-right */
     float: none !important;
     text-align: center; }
 
-  /* line 127, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .l-footer .social-medias .social-media img {
-    width: 30px;
-    height: 30px; } }
+  /* line 191, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #global-search .search-field {
+    margin-top: 70px; }
+  /* line 194, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #global-search .search-field-input {
+    font-size: 16px;
+    width: calc( 100% - 25px ); }
+  /* line 198, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #global-search .search-field-button {
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50%); }
+  /* line 203, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #global-search .popular-keyword {
+    margin-top: 120px; }
+  /* line 206, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #global-search .btn-close .icon-close {
+    width: 20px;
+    height: 20px; } }
+@media (max-width: 376px) {
+  /* line 215, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-events .item .desktop-size {
+    display: none; }
+  /* line 218, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-events .item .mobile-size {
+    display: block; } }

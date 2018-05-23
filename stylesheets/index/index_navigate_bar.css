@@ -37,7 +37,7 @@
   /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar.is-sticky {
     position: fixed;
-    top: 0;
+    top: 80px;
     width: 100%;
     z-index: 3;
     background: rgba(18, 0, 124, 0.95); }

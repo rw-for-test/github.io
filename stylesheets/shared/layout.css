@@ -1,20 +1,26 @@
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
 .l-header {
+  position: fixed;
+  width: 100%;
   height: 80px;
-  z-index: 1; }
+  z-index: 5; }
 
-/* line 7, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
+/* line 9, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
+.l-content {
+  padding-top: 80px; }
+
+/* line 12, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
 .l-container {
   position: relative;
   width: 1024px;
   margin: 0 auto; }
 
-/* line 12, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
+/* line 17, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
 .l-container-sm {
   position: relative;
   width: 800px;
   margin: 0 auto; }
 
-/* line 17, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
+/* line 22, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
 .l-footer {
-  height: 100px; }
+  height: 265px; }
