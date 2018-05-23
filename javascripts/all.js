@@ -12746,8 +12746,8 @@ $(document).ready(function(){
   const indexNavigateBar = $('.index-navigate-bar')
   const headerHeight = $('.l-header').height()
   if(indexNavigateBar.length > 0){
+    const offsetTop = indexNavigateBar.offset().top - headerHeight
     $(window).scroll(function(){
-      const offsetTop = indexNavigateBar.offset().top - headerHeight
       if (window.pageYOffset >= offsetTop) {
         indexNavigateBar.addClass("is-sticky");
         indexNavigateBar.next().css('marginTop', '60px');
