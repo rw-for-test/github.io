@@ -1,12 +1,12 @@
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
 .index-navigate-bar {
   background: #12007c;
-  height: 60px; }
-  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  height: 60px;
+  font-size: 18px; }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar .index-navigate-bar-menu {
     text-align: justify;
     padding: 20px 40px 0 40px;
-    font-size: 18px;
     line-height: 1; }
     /* line 11, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .index-navigate-bar-menu li {
@@ -21,30 +21,69 @@
         /* line 19, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
         .index-navigate-bar .index-navigate-bar-menu li > a:hover {
           opacity: 1; }
-      /* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
-      .index-navigate-bar .index-navigate-bar-menu li.search img {
-        width: 20px;
-        height: 20px; }
-      /* line 28, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
-      .index-navigate-bar .index-navigate-bar-menu li.search > * {
-        display: inline-block;
-        vertical-align: middle; }
-    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .index-navigate-bar-menu:after {
       content: '';
       display: inline-block;
       width: 100%; }
-  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .index-navigate-bar-menu.open {
+      display: block; }
+  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  .index-navigate-bar .index-navigate-bar-selector {
+    display: none;
+    position: absolute; }
+    /* line 36, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .index-navigate-bar-selector li {
+      display: none; }
+      /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      .index-navigate-bar .index-navigate-bar-selector li a {
+        line-height: 16px;
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 22px 0; }
+      /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      .index-navigate-bar .index-navigate-bar-selector li.active {
+        display: block; }
+      /* line 48, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      .index-navigate-bar .index-navigate-bar-selector li:after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        background: url("/images/school/btn_dropdown_normal.png") center no-repeat;
+        background-size: 100%;
+        width: 12px;
+        height: 12px;
+        margin-left: 8px; }
+  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  .index-navigate-bar .search {
+    cursor: pointer; }
+    /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .search img {
+      width: 20px;
+      height: 20px; }
+    /* line 66, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .search > * {
+      display: inline-block;
+      vertical-align: middle; }
+    /* line 70, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    .index-navigate-bar .search.is-mobile {
+      display: none;
+      position: absolute;
+      top: 16px;
+      right: 40px; }
+  /* line 77, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar.is-sticky {
     position: fixed;
     top: 80px;
     width: 100%;
     z-index: 3;
     background: rgba(18, 0, 124, 0.95); }
-    /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 84, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky li > a {
       opacity: 0.7; }
-    /* line 51, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 88, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky li.active > a {
       opacity: 1;
       font-weight: bold; }

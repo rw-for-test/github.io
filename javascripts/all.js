@@ -12731,6 +12731,7 @@ $(document).ready(function(){
 
   //Navigate to section
   $('.scrollTo').click(function() {
+    $('.index-navigate-bar-menu').removeClass('open')
     const getElem = $(this).attr('href');
     const targetDistance = 139;
     if ($(getElem).length) {
@@ -12740,6 +12741,12 @@ $(document).ready(function(){
       }, 500);
     }
     return false;
+  })
+
+  //Index navigate bar selector in mobile
+  $('.index-navigate-bar-selector a').click(function(e){
+    e.preventDefault();
+    $('.index-navigate-bar-menu').toggleClass('open')
   })
 
   //Fix index navigate bar if scroll down
@@ -12759,7 +12766,7 @@ $(document).ready(function(){
   }
 
   //Open global search pop-up
-  $('.index-navigate-bar-menu .search').click(function(){
+  $('.index-navigate-bar .search').click(function(){
     $('#global-search').css('display', 'block');
     $('body').css('overflow', 'hidden');
   })
@@ -12771,12 +12778,20 @@ $(document).ready(function(){
   })
 
   //Back to top
-  $('#back-to-top').click(function() {
+  $('.back-to-top').click(function() {
     $('html, body').animate({
       scrollTop : 0
     }, 500);
   })
+
+  // $(window).scroll(function(){
+  //   $('.global-links .back-to-top')
+  //     .css('opacity', 1)
+  //     .delay(5000)
+  //     .fadeOut('slow')
+  // })
 })
+
 ;
 function selectValue(ele){
   const label = ele.innerText

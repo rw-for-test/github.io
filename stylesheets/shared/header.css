@@ -68,8 +68,8 @@
       z-index: 2; }
       /* line 74, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
       .l-header .menu .sub-menu .sub-menu-label {
+        float: left;
         font-weight: bold;
-        overflow: hidden;
         line-height: 1.2; }
       /* line 79, /Users/ruoshin/repos/test/source/stylesheets/shared/header.scss */
       .l-header .menu .sub-menu .sub-menu-list {

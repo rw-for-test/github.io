@@ -103,22 +103,23 @@
 
 /* line 119, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-dialog {
-  width: 700px; }
-/* line 122, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  width: 760px;
+  margin: 60px auto; }
+/* line 123, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-content {
   box-shadow: none; }
-/* line 125, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 126, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-header {
   padding: 40px;
   border-bottom: none; }
-  /* line 128, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 129, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-header .modal-title {
     font-size: 22px;
     font-weight: bold; }
-/* line 133, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 134, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-body {
   padding: 0 40px 40px;
   line-height: 1.7; }
-  /* line 136, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 137, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-body img {
     width: 100%; }

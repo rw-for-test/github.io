@@ -39,3 +39,12 @@
   .experience-sharing .sharing-box .sharing-footer .divider {
     color: #c5c6c8;
     margin: 0 10px; }
+  /* line 49, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-modal-body img {
+    margin-top: 20px; }
+  /* line 53, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+  .experience-sharing .sharing-box .sharing-modal-footer {
+    margin-top: 40px; }
+    /* line 55, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+    .experience-sharing .sharing-box .sharing-modal-footer .action {
+      margin-bottom: 20px; }
