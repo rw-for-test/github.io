@@ -1,6 +1,8 @@
+@charset "UTF-8";
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/global.scss */
 html, body {
   color: #232941;
+  font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', sans-serif;
   font-size: 14px;
   line-height: 1.4; }
 
