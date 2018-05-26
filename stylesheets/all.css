@@ -7355,7 +7355,7 @@ ul {
   /* line 33, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .btn.btn-link-style {
     color: #0898ff;
-    padding: 0;
+    padding: 0 2px;
     height: auto;
     line-height: 1;
     background: none; }
