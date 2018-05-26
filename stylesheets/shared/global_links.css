@@ -3,7 +3,7 @@
   position: fixed;
   right: 5px;
   bottom: 20px;
-  z-index: 10; }
+  z-index: 4; }
   /* line 7, /Users/ruoshin/repos/test/source/stylesheets/shared/global_links.scss */
   .global-links ul > li {
     cursor: pointer;

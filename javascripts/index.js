@@ -66,9 +66,14 @@ $(document).ready(function(){
     if(!defaultSelector){
       $('.index-navigate-bar-selector li').first().addClass('active')
     }
-    $('.global-links .back-to-top').css('opacity', 1)
-    if (window.pageYOffset >= footerOffset){
+
+    console.log($(window).height() + $(window).scrollTop(), footerOffset, footerHeight)
+    if ($(window).height() + $(window).scrollTop() >= footerOffset){
+      const globalLinksOffset = $(window).height() + $(window).scrollTop() - footerOffset
       $('.global-links .back-to-top').css('opacity', 0)
+      $('.global-links').css('bottom', globalLinksOffset)
+    }else{
+      $('.global-links .back-to-top').css('opacity', 1)
     }
   })
 })

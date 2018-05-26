@@ -1,4 +1,4 @@
-/* line 1, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
 .banner {
   position: relative;
   height: 270px;
@@ -6,10 +6,19 @@
   background-image: url("/images/bg-news-banner.png");
   background-size: cover;
   background-position: center center; }
-  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
+  /* line 10, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
   .banner h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
     color: #fff; }
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
+  .banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(35, 41, 65, 0.7); }

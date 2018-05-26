@@ -1,0 +1,35 @@
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+.member-card {
+  padding: 0 10px 40px; }
+  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+  .member-card .member-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden; }
+    /* line 13, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    .member-card .member-image > img {
+      width: 100%; }
+  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+  .member-card .member-header {
+    margin-bottom: 10px; }
+    /* line 19, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    .member-card .member-header .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px; }
+    /* line 23, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    .member-card .member-header .title {
+      line-height: 1; }
+  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+  .member-card .member-body .info-group .info-label {
+    float: left;
+    width: 50px;
+    color: #6f7075; }
+  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+  .member-card .member-body .info-group .info-value {
+    float: left;
+    width: calc(100% - 50px);
+    word-break: break-word; }

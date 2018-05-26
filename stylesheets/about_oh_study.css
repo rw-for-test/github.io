@@ -1,0 +1,113 @@
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .banner {
+  background-image: url("/images/about/img_about.png"); }
+/* line 8, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .about-title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 40px 0; }
+/* line 13, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .content {
+  margin-bottom: 20px; }
+/* line 16, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .youtube-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+/* line 29, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .about-our-story {
+  margin-bottom: 40px; }
+/* line 32, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .service-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px; }
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .service-title > * {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .service-title:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    background: url("/images/about/icn_point.png");
+    background-size: cover;
+    margin-right: 10px; }
+/* line 50, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .about-our-service {
+  margin-bottom: 40px; }
+  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .about-our-service .content {
+    margin-left: 34px; }
+    /* line 54, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    .about-oh-study .about-our-service .content li {
+      margin-bottom: 5px; }
+      /* line 56, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      .about-oh-study .about-our-service .content li > * {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1; }
+      /* line 61, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      .about-oh-study .about-our-service .content li:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 8px;
+        height: 8px;
+        background: #6f7075;
+        border-radius: 8px;
+        margin-right: 10px; }
+    /* line 72, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    .about-oh-study .about-our-service .content img {
+      width: 100%;
+      max-width: 540px;
+      margin: 20px 0 60px; }
+/* line 79, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .about-advantage {
+  background: #f2f5f7;
+  padding: 40px 0; }
+  /* line 82, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .about-advantage li {
+    clear: both;
+    margin-bottom: 15px; }
+    /* line 85, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    .about-oh-study .about-advantage li span {
+      line-height: 24px; }
+    /* line 88, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    .about-oh-study .about-advantage li:before {
+      content: '';
+      display: block;
+      float: left;
+      width: 24px;
+      height: 24px;
+      background-size: cover;
+      margin-right: 10px; }
+    /* line 97, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    .about-oh-study .about-advantage li:last-child {
+      margin-bottom: 0; }
+  /* line 103, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .about-advantage .why-choose-us li:before {
+    background-image: url("/images/about/icn_star.png"); }
+  /* line 110, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .about-advantage .consumer-guarantee li:before {
+    background-image: url("/images/about/icn_promise.png"); }
+/* line 116, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .about-team-members {
+  padding: 40px 0; }
+  /* line 119, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  .about-oh-study .about-team-members .member-list .member-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%; }
