@@ -14,6 +14,11 @@
   height: 480px;
   margin-bottom: 20px; }
 /* line 19, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+.countries .country-wrapper {
+  display: block;
+  height: 100%;
+  opacity: 1; }
+/* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
 .countries .country-box {
   position: relative;
   background-color: #aaa;
@@ -21,10 +26,11 @@
   width: 100%;
   height: 230px;
   margin: 10px auto;
-  background-size: 100%;
+  background-size: auto 100%;
   background-position: center center;
+  background-repeat: no-repeat;
   transition: background-size 0.3s; }
-  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box .country-name {
     position: absolute;
     top: 50%;
@@ -34,13 +40,13 @@
     color: #fff;
     font-size: 24px;
     font-weight: bold; }
-    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    /* line 44, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box .country-name > span {
       display: block; }
-    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box .country-name .en {
       font-weight: normal; }
-  /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 51, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box:before {
     content: '';
     position: absolute;
@@ -51,12 +57,12 @@
     background: rgba(0, 0, 0, 0.3);
     z-index: 0;
     transition: background 0.2s; }
-  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box:hover {
-    background-size: 110%; }
-    /* line 58, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    background-size: auto 110%; }
+    /* line 64, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box:hover:before {
       background: rgba(35, 41, 65, 0.85); }
-  /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 68, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box.h-2x {
     height: 100%; }

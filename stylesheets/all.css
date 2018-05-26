@@ -7912,41 +7912,46 @@ ul {
 /* line 5, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .banner {
   background-image: url("/images/about/img_about.png"); }
-/* line 8, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 9, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+.about-oh-study .anchor-wrapper:before {
+  content: "";
+  display: block;
+  height: 80px;
+  /* fixed header height*/
+  margin: -80px 0 0;
+  /* negative fixed header height */ }
+/* line 16, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-title {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.5;
   padding: 40px 0; }
-/* line 13, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 21, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .content {
   margin-bottom: 20px; }
-/* line 16, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 24, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .youtube-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0; }
-  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .youtube-wrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-/* line 29, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
-.about-oh-study .about-our-story {
-  margin-bottom: 40px; }
-/* line 32, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 37, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .service-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px; }
-  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .service-title > * {
     display: inline-block;
     vertical-align: middle; }
-  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 44, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .service-title:before {
     content: '';
     display: inline-block;
@@ -7956,21 +7961,22 @@ ul {
     background: url("/images/about/icn_point.png");
     background-size: cover;
     margin-right: 10px; }
-/* line 50, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 55, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-our-service {
+  margin-top: 40px;
   margin-bottom: 40px; }
-  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 58, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-our-service .content {
     margin-left: 34px; }
-    /* line 54, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 60, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-our-service .content li {
       margin-bottom: 5px; }
-      /* line 56, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      /* line 62, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
       .about-oh-study .about-our-service .content li > * {
         display: inline-block;
         vertical-align: middle;
         line-height: 1; }
-      /* line 61, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      /* line 67, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
       .about-oh-study .about-our-service .content li:before {
         content: '';
         display: inline-block;
@@ -7980,23 +7986,23 @@ ul {
         background: #6f7075;
         border-radius: 8px;
         margin-right: 10px; }
-    /* line 72, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 78, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-our-service .content img {
       width: 100%;
       max-width: 540px;
       margin: 20px 0 60px; }
-/* line 79, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 85, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-advantage {
   background: #f2f5f7;
   padding: 40px 0; }
-  /* line 82, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 88, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage li {
     clear: both;
     margin-bottom: 15px; }
-    /* line 85, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 91, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li span {
       line-height: 24px; }
-    /* line 88, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 94, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:before {
       content: '';
       display: block;
@@ -8005,19 +8011,19 @@ ul {
       height: 24px;
       background-size: cover;
       margin-right: 10px; }
-    /* line 97, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 103, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:last-child {
       margin-bottom: 0; }
-  /* line 103, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 109, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage .why-choose-us li:before {
     background-image: url("/images/about/icn_star.png"); }
-  /* line 110, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 116, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage .consumer-guarantee li:before {
     background-image: url("/images/about/icn_promise.png"); }
-/* line 116, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 122, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-team-members {
   padding: 40px 0; }
-  /* line 119, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 125, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-team-members .member-list .member-card {
     display: inline-block;
     vertical-align: top;
@@ -8233,6 +8239,11 @@ ul {
   height: 480px;
   margin-bottom: 20px; }
 /* line 19, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+.countries .country-wrapper {
+  display: block;
+  height: 100%;
+  opacity: 1; }
+/* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
 .countries .country-box {
   position: relative;
   background-color: #aaa;
@@ -8240,10 +8251,11 @@ ul {
   width: 100%;
   height: 230px;
   margin: 10px auto;
-  background-size: 100%;
+  background-size: auto 100%;
   background-position: center center;
+  background-repeat: no-repeat;
   transition: background-size 0.3s; }
-  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box .country-name {
     position: absolute;
     top: 50%;
@@ -8253,13 +8265,13 @@ ul {
     color: #fff;
     font-size: 24px;
     font-weight: bold; }
-    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    /* line 44, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box .country-name > span {
       display: block; }
-    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box .country-name .en {
       font-weight: normal; }
-  /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 51, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box:before {
     content: '';
     position: absolute;
@@ -8270,13 +8282,13 @@ ul {
     background: rgba(0, 0, 0, 0.3);
     z-index: 0;
     transition: background 0.2s; }
-  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box:hover {
-    background-size: 110%; }
-    /* line 58, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+    background-size: auto 110%; }
+    /* line 64, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
     .countries .country-box:hover:before {
       background: rgba(35, 41, 65, 0.85); }
-  /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
+  /* line 68, /Users/ruoshin/repos/test/source/stylesheets/index/countries.scss */
   .countries .country-box.h-2x {
     height: 100%; }
 
@@ -8467,6 +8479,9 @@ ul {
     /* line 55, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
     .experience-sharing .sharing-box .sharing-modal-footer .action {
       margin-bottom: 20px; }
+/* line 60, /Users/ruoshin/repos/test/source/stylesheets/index/experience_sharing.scss */
+.experience-sharing .button-center-align {
+  padding-bottom: 20px; }
 
 /* line 4, /Users/ruoshin/repos/test/source/stylesheets/index/office.scss */
 .office {
@@ -8995,7 +9010,7 @@ ul {
 
   /* line 219, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .button-center-align {
-    padding-bottom: 10px; }
+    padding-bottom: 40px; }
 
   /* line 223, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .index-news .news-block {
@@ -9019,86 +9034,89 @@ ul {
     .countries .country-box.america {
       margin-top: 0; }
 
-  /* line 249, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  .discounts .col-md-4:last-child .discount-box {
-    margin-bottom: 0; }
+  /* line 246, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .discounts {
+    margin-bottom: 40px; }
+    /* line 250, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .discounts .col-md-4:last-child .discount-box {
+      margin-bottom: 0; }
 
-  /* line 258, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 259, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .experience-sharing .col-sm-4:last-child .sharing-box {
     margin-bottom: 0; }
 
-  /* line 264, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 265, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .sharing-box {
     margin: 0 10% 40px; }
 
-  /* line 268, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 269, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service h2 {
     padding: 40px 0; }
-  /* line 271, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 272, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-wrapper {
     height: auto; }
-  /* line 274, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 275, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-items {
     position: static;
     transform: translateY(0); }
-  /* line 278, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 279, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .our-service .service-item {
     /* overwrite pull-left and pull-right */
     float: none !important;
     text-align: center; }
 
-  /* line 285, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 286, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .search-field {
     margin-top: 70px; }
-  /* line 288, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 289, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .search-field-input {
     font-size: 16px;
     width: calc( 100% - 25px ); }
-  /* line 292, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 293, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .search-field-button {
     top: 95px;
     left: 50%;
     transform: translateX(-50%); }
-  /* line 297, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 298, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .popular-keyword {
     margin-top: 120px; }
-  /* line 300, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 301, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #global-search .btn-close .icon-close {
     width: 20px;
     height: 20px; }
 
-  /* line 307, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 308, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .about-oh-study .about-advantage .consumer-guarantee {
     margin-top: 40px; }
-  /* line 313, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 314, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   .about-oh-study .about-team-members .member-list .member-card {
     width: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto; }
-    /* line 318, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 319, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .about-oh-study .about-team-members .member-list .member-card .member-image {
       margin-left: auto;
       margin-right: auto; }
-    /* line 322, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 323, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .about-oh-study .about-team-members .member-list .member-card .member-header {
       text-align: center; }
-    /* line 325, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    /* line 326, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
     .about-oh-study .about-team-members .member-list .member-card .member-body {
       text-align: center; }
-      /* line 327, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      /* line 328, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
       .about-oh-study .about-team-members .member-list .member-card .member-body .info-label {
         float: none;
         margin-right: 5px; }
-      /* line 331, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      /* line 332, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
       .about-oh-study .about-team-members .member-list .member-card .member-body .info-value {
         float: none; } }
 /* 767px end */
 @media (max-width: 376px) {
-  /* line 343, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 344, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #slider-events .item .desktop-size {
     display: none; }
-  /* line 346, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 347, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #slider-events .item .mobile-size {
     display: block; } }
 /* 376px end */

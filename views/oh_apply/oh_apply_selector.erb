@@ -1,9 +1,0 @@
-<div class='oh-apply-selector'>
-  <div class='selector-label'><%= locals[:items][0].name %></div>
-  <ul class='oh-apply-selector-options'>
-    <% locals[:items].each_with_index do |item, i| %>
-      <li value='<%= item.value %>' onclick="selectValue(this)"><%= item.name %></li>
-    <% end %>
-  </ul>
-  <input type='text' class='selector-value'>
-</div>
