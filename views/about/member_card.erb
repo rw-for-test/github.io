@@ -1,0 +1,31 @@
+<div class='member-card'>
+  <div class='member-image'>
+    <% if locals[:avatar].present? %>
+      <%= image_tag(locals[:avatar]) %>
+    <% end %>
+  </div>
+  <div class='member-header'>
+    <div class='name'>
+      <%= link_to locals[:name], locals[:link], target: '_blank' %>
+    </div>
+    <div class='title'><%= locals[:title] %></div>
+  </div>
+  <div class='member-body'>
+    <div class='info-group clearfix'>
+      <span class='info-label'>E-mail</span>
+      <span class='info-value'><%= locals[:email] %></span>
+    </div>
+    <div class='info-group clearfix'>
+      <span class='info-label'>Tel</span>
+      <span class='info-value'><%= locals[:tel] %></span>
+    </div>
+    <div class='info-group clearfix'>
+      <span class='info-label'>Skype</span>
+      <span class='info-value'><%= locals[:skype] %></span>
+    </div>
+    <div class='info-group clearfix'>
+      <span class='info-label'>Line</span>
+      <span class='info-value'><%= locals[:line] %></span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,132 @@
+@import "shared/variables";
+@import "shared/mixins";
+
+.about-oh-study{
+  .banner{
+    background-image: image_url('about/img_about.png');
+  }
+  .anchor-wrapper{
+    &:before {
+      content: "";
+      display: block;
+      height: 80px; /* fixed header height*/
+      margin: -80px 0 0; /* negative fixed header height */
+    }
+  }
+  .about-title{
+    @include h2;
+    line-height: 1.5;
+    padding: 40px 0;
+  }
+  .content{
+    margin-bottom: 20px;
+  }
+  .youtube-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .service-title{
+    @include h3;
+    margin-bottom: 10px;
+    >*{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &:before{
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 24px;
+      height: 24px;
+      background: image_url('about/icn_point.png');
+      background-size: cover;
+      margin-right: 10px;
+    }
+  }
+  .about-our-service{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .content{
+      margin-left: 34px;
+      li{
+        margin-bottom: 5px;
+        >*{
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 1;
+        }
+        &:before{
+          content: '';
+          display: inline-block;
+          vertical-align: middle;
+          width: 8px;
+          height: 8px;
+          background: $color-gray-dark;
+          border-radius: 8px;
+          margin-right: 10px;
+        }
+      }
+      img{
+        width: 100%;
+        max-width: 540px;
+        margin: 20px 0 60px;
+      }
+    }
+  }
+  .about-advantage{
+    background: $color-white;
+    padding: 40px 0;
+    li{
+      clear: both;
+      margin-bottom: 15px;
+      span{
+        line-height: 24px;
+      }
+      &:before{
+        content: '';
+        display: block;
+        float: left;
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        margin-right: 10px;
+      }
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+    .why-choose-us{
+      li{
+        &:before{
+          background-image: image_url('about/icn_star.png');
+        }
+      }
+    }
+    .consumer-guarantee{
+      li{
+        &:before{
+          background-image: image_url('about/icn_promise.png');
+        }
+      }
+    }
+  }
+  .about-team-members{
+    padding: 40px 0;
+    .member-list{
+      .member-card{
+        display: inline-block;
+        vertical-align: top;
+        width: 33%;
+      }
+    }
+  }
+}

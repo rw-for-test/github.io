@@ -1,0 +1,48 @@
+.oh-apply-selector{
+  position: relative;
+  cursor: pointer;
+  padding: 5px 0;
+  .selector-label{
+    font-size: 18px;
+    > span{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &:after{
+      content: '';
+      width: 18px;
+      height: 18px;
+      background-image: image_url("icon-todo-replace.png");
+      background-size: cover;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .selector-value{
+    display: none;
+  }
+  .oh-apply-selector-options{
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 1;
+    background: #fff;
+    color: #000;
+    padding: 15px 20px;
+    width: 150px;
+    box-shadow: 0 0 6px rgba(#000, 0.1);
+    border-radius: 4px;
+    > li{
+      padding: 5px 0;
+      &:hover{
+        opacity: 0.5;
+      }
+    }
+  }
+  &.is-open{
+    .oh-apply-selector-options{
+      display: block;
+    }
+  }
+}

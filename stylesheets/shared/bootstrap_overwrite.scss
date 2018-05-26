@@ -1,0 +1,141 @@
+@import "shared/variables";
+
+.btn{
+  font-size: 14px;
+  outline: none;
+  padding: 15px 30px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all .2s;
+  &.btn-secondary{
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    background: none;
+    outline: none;
+    &:hover, &:active{
+      background: $primary-color;
+      color: #fff;
+    }
+  }
+  &.btn-primary{
+    background: $red;
+    color: #fff;
+    border: none;
+    &:hover, &:active{
+      background: #b31018;
+    }
+    &:focus, &:active{
+      &, &:focus, &:active{
+        background: #b31018;
+      }
+    }
+  }
+  &.btn-link-style{
+    color: $link-color;
+    padding: 0 2px;
+    height: auto;
+    line-height: 1;
+    background: none;
+    &:hover, &:active{
+      color: $link-color;
+      font-weight: bold;
+    }
+  }
+  &.btn-lg{
+    font-size: 18px;
+    padding: 18px 40px;
+    height: 60px;
+  }
+  &:hover{
+    opacity: 1;
+  }
+  &, &:focus, &:active{
+    &, &:focus, &:active{
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  &.disabled, &[disabled]{
+    opacity: 0.4;
+  }
+}
+
+.nav{
+  > li{
+    > a{
+      display: inline;
+      padding: 0;
+      &:hover, &:focus{
+        background: none;
+      }
+    }
+  }
+}
+
+.navbar{
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  .navbar-header{
+    height: $headerHeight;
+  }
+}
+
+.form-control{
+  border-color: $color-white;
+  box-shadow: none;
+  border-radius: 3px;
+  background: $color-white;
+}
+
+.modal-backdrop{
+  background-color: $primary-color;
+  &.in{
+    opacity: 0.9;
+  }
+}
+
+.pagination{
+  margin: 40px 0 0;
+  > li{
+    > a{
+      border: none;
+      padding: 2px 6px;
+      margin: 0 2px;
+      border-radius: 3px;
+      line-height: 1.2;
+      color: $primary-color;
+    }
+  }
+  .active{
+    > a{
+      border: none;
+      background: $blue;
+    }
+  }
+}
+
+.modal{
+  .modal-dialog{
+    width: 760px;
+    margin: 60px auto;
+  }
+  .modal-content{
+    box-shadow: none;
+  }
+  .modal-header{
+    padding: 40px;
+    border-bottom: none;
+    .modal-title{
+      font-size: 22px;
+      font-weight: bold;
+    }
+  }
+  .modal-body{
+    padding: 0 40px 40px;
+    line-height: 1.7;
+    img{
+      width: 100%;
+    }
+  }
+}

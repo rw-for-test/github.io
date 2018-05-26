@@ -1,0 +1,64 @@
+@import "shared/variables";
+
+.index-news{
+  .news-block{
+    .news-block-header{
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 3px;
+      box-shadow: 0 6px 12px -1px rgba(#000, 0.2);
+      margin-bottom: 10px;
+      img, span{
+        display: inline-block;
+        vertical-align: middle;
+      }
+      img{
+        width: 40px;
+        margin-right: 6px;
+      }
+    }
+    .news-block-body{
+      padding: 20px 0 30px;
+      margin: 0 20px;
+      .news-block-list{
+        li{
+          margin-bottom: 15px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          > a{
+            display: inline;
+          }
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+      .date{
+        color: $color-gray-dark;
+        margin-right: 15px;
+      }
+    }
+    .news-block-footer{
+      margin: 0 20px;
+      border-top: 1px solid $color-gray-light;
+      a{
+        color: $link-color;
+        margin-top: 10px;
+        display: block;
+      }
+    }
+    &.latest{
+      .news-block-header{
+        background: $blue;
+      }
+    }
+    &.lecture-course{
+      .news-block-header{
+        background: $red;
+      }
+    }
+  }
+}

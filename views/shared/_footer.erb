@@ -1,0 +1,33 @@
+<div class='l-footer'>
+  <div class='information-wrapper'>
+    <div class='privacy'>
+      <span class='privacy-button' data-toggle='modal' data-target='#privacy-modal'>隱私權政策</span>
+      <span>E-mail: ohstudy@ohstudy.net</span>
+    </div>
+    <div class='social-medias'>
+        <a href='https://www.facebook.com/ohstudycenter' target='_blank' class='social-media'>
+          <%= image_tag 'landing/icn_fb.png' %>
+        </a>
+        <a href='https://twitter.com/OOhstudy' target='_blank' class='social-media'>
+          <%= image_tag 'landing/icn_twitter.png' %>
+        </a>
+        <a href='https://www.instagram.com/ohstudycenter/' target='_blank' class='social-media'>
+          <%= image_tag 'landing/icn_ig.png' %>
+        </a>
+        <a href='#' target='_blank' class='social-media'>
+          <%= image_tag 'landing/icn_line.png' %>
+        </a>
+    </div>
+    <div id='back-to-top' class='back-to-top'>
+      <span>回到頂端</span>
+      <%= image_tag 'landing/btn_footer_back_normal.png' %>
+    </div>
+  </div>
+  <div class='copyright'>
+    哦思達股份有限公司  版權所有 Copyright©2018<br />
+    哦加利美有限公司　版權所有 Copyright©2018<br />
+    哦加美利有限公司　版權所有 Copyright©2018<br />
+    OH!Study Education Consulting Center. All Rights Reserved.　
+  </div>
+  <%= partial "views/shared/privacy" %>
+</div>

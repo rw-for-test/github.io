@@ -1,0 +1,29 @@
+.oh-apply-header{
+  box-shadow: 0 2px 6px rgba(#000, 0.1);
+  .oh-apply-header-title{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+    > span{
+      &:after{
+        content: ' / ';
+      }
+      &:last-child{
+        &:after{
+          content: '';
+        }
+      }
+    }
+  }
+  .oh-apply-header-tabs{
+    padding-bottom: 15px;
+    > li{
+      display: inline-block;
+      font-size: 18px;
+      margin-right: 50px;
+      &.active{
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+@import "shared/variables";
+
+.index-navigate-bar {
+  background: $main-color;
+  height: 60px;
+  font-size: 18px;
+  .index-navigate-bar-menu {
+    text-align: justify;
+    padding: 20px 40px 0 40px;
+    line-height: 1;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+      color: #fff;
+      > a{
+        line-height: 16px;
+        color: #fff;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+    &.open{
+      display: block;
+      z-index: 10;
+    }
+  }
+  .index-navigate-bar-selector{
+    display: none;
+    position: absolute;
+    li{
+      display: none;
+      a{
+        line-height: 16px;
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 22px 0;
+        font-weight: bold;
+        &, &:hover{
+          opacity: 1;
+        }
+      }
+      &.active{
+        display: block;
+      }
+      &:after{
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        background: image_url('school/btn_dropdown_normal.png') center no-repeat;
+        background-size: 100%;
+        width: 12px;
+        height: 12px;
+        margin-left: 8px;
+      }
+    }
+  }
+  .search{
+    cursor: pointer;
+    img{
+      width: 20px;
+      height: 20px;
+    }
+    > *{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &.is-mobile{
+      display: none;
+      position: absolute;
+      top: 16px;
+      right: 40px;
+    }
+  }
+  &.is-sticky {
+    position: fixed;
+    top: $headerHeight;
+    width: 100%;
+    z-index: 3;
+    background: rgba($main-color, 0.95);
+    li{
+      > a{
+        opacity: 0.7;
+      }
+      &.active{
+        > a{
+          opacity: 1;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

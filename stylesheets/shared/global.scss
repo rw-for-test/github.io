@@ -1,0 +1,65 @@
+@import "shared/variables";
+
+html, body{
+  color: $primary-color;
+  font-family: 'Open Sans', 'Noto Sans TC', '微軟正黑體', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+a{
+  display: inline-block;
+  color: $primary-color;
+  cursor: pointer;
+  &:hover{
+    color: $primary-color;
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  &:active, &:focus{
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+}
+
+h2{
+  font-size: 2.3rem;
+  font-weight: bold;
+  padding: 80px 0 60px;
+  text-align: center;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.modal{
+  hr{
+    border-top: 1px solid $color-gray-light;
+  }
+  .info-group{
+    .info-label{
+      color: #7d7e82;
+    }
+    .info-content{
+      font-weight: bold;
+    }
+  }
+}
+.button-center-align{
+  text-align: center;
+  padding: 40px 0 80px;
+}

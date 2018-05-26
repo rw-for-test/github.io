@@ -1,0 +1,16 @@
+<div class='oh-apply-header'>
+  <div class='l-container'>
+    <div class='oh-apply-header-title'>
+      <span class='country'>加拿大</span>
+      <span class='city'>全部城市</span>
+      <span class='course'>全部課程</span>
+    </div>
+    <ul class="oh-apply-header-tabs">
+      <li class='<%= current_page.path.include?('ohapply/ohapply') ? 'active' : '' %>'><%= link_to '全部學校', '/ohapply/ohapply' %></li>
+      <li class='<%= current_page.path.include?('ohapply/city-introduction') ? 'active' : '' %>'><%= link_to '熱門城市', '/ohapply/city-introduction' %></li>
+      <li class='<%= current_page.path.include?('ohapply/education-system') ? 'active' : '' %>'><%= link_to '教育制度', '/ohapply/education-system' %></li>
+      <li class='<%= current_page.path.include?('ohapply/seminars') ? 'active' : '' %>'><%= link_to '說明會', '/ohapply/seminars' %></li>
+      <li class='<%= current_page.path.include?('ohapply/news') ? 'active' : '' %>'><%= link_to '最新消息', '/ohapply/news' %></li>
+    </ul>
+  </div>
+</div>

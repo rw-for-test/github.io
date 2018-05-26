@@ -1,0 +1,28 @@
+@import "shared/variables";
+
+.oh-apply-search-bar{
+  background: $primary-color;
+  color: #fff;
+  padding: 14px 0;
+  .selector{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px;
+    .oh-apply-selector-options{
+      .field-label{
+        color: rgba(#000, 0.5);
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  }
+  .selector-advance{
+    .oh-apply-selector-options{
+      width: 450px;
+    }
+  }
+  .selector-popular{
+    border-left: 1px solid rgba(#fff, 0.4);
+    padding-left: 30px;
+  }
+}

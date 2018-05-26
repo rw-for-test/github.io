@@ -1,0 +1,126 @@
+<div class='oh-apply-search-bar'>
+  <div class='l-container'>
+    <div class='selector selector-country'>
+      <%= partial 'views/oh_apply/oh_apply_selector',
+        :locals => {:items => data.oh_apply['country']} %>
+    </div>
+    <div class='selector selector-city'>
+      <%= partial 'views/oh_apply/oh_apply_selector',
+        :locals => {:items => data.oh_apply['city']} %>
+    </div>
+    <div class='selector selector-course'>
+      <%= partial 'views/oh_apply/oh_apply_selector',
+        :locals => {:items => data.oh_apply['course']} %>
+    </div>
+    <div class='selector selector-department'>
+      <%= partial 'views/oh_apply/oh_apply_selector',
+        :locals => {:items => data.oh_apply['department']} %>
+    </div>
+    <div class='selector selector-advance'>
+      <div class='oh-apply-selector'>
+        <div class='selector-label'>進階搜尋</div>
+        <div class='oh-apply-selector-options'>
+          <div class='row'>
+            <div class='col-md-6'>
+              <div class='field-label'>週數</div>
+              <select class='form-control'>
+                <option>不限</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+            <div class='col-md-6'>
+              <div class='field-label'>費用</div>
+              <select class='form-control'>
+                <option>不限</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-md-12'>
+              <div class='field-label'>學校類型</div>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='school-type' value='option1'>
+                語言學校
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='school-type' value='option2'>
+                大學附設語言學校
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='school-type' value='option3'>
+                社區大學/技職學校
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='school-type' value='option4'>
+                公立大學/研究所
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='school-type' value='option5'>
+                私立大學/研究所
+              </label>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-md-12'>
+              <div class='field-label'>學校人數</div>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='number-of-student' value='option1'>
+                少於 200 人
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='number-of-student' value='option2'>
+                200~2,000 人
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='number-of-student' value='option2'>
+                2,000 人以上
+              </label>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-md-12'>
+              <div class='field-label'>學校住宿</div>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='stay-type' value='option1'>
+                學校宿舍
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='stay-type' value='option2'>
+                住宿家庭
+              </label>
+            </div>
+          </div>
+          <div class='row'>
+            <div class='col-md-12'>
+              <div class='field-label'>學校位置</div>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='location-type' value='option1'>
+                城市
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='location-type' value='option2'>
+                大學城
+              </label>
+              <label class='checkbox-inline'>
+                <input type='checkbox' name='location-type' value='option3'>
+                郊區
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='selector selector-popular'>
+      <div class='oh-apply-selector'>
+        <div class='selector-label'>熱門特蒐</div>
+      </div>
+    </div>
+  </div>
+</div>

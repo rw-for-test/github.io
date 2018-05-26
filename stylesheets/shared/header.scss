@@ -1,0 +1,131 @@
+@import "shared/variables";
+$headerFontSize: 18px;
+$logoWidth: 140px;
+
+.l-header{
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(#000, 0.1);
+  .logo{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: $logoWidth;
+    img{
+      display: block;
+      width: 100%;
+    }
+  }
+  .reservation{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    &:after{
+      content: '';
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .btn-primary{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .menu{
+    margin-left: $logoWidth;
+    > li{
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 40px;
+      padding: 27px 0;
+      .menu-label{
+        cursor: pointer;
+        font-size: $headerFontSize;
+        padding-bottom: 5px;
+      }
+      &:hover{
+        .menu-label{
+          border-bottom: 2px solid $red;
+        }
+        .sub-menu{
+          display: block;
+        }
+      }
+      &.active{
+        .menu-label{
+          color: $red;
+          border-bottom: 2px solid $red;
+        }
+      }
+    }
+    .sub-menu{
+      position: absolute;
+      top: 0;
+      margin-top: calc(#{$headerHeight} - 10px);
+      display: none;
+      font-size: 13px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 0 6px rgba(#000, 0.1);
+      z-index: 2;
+      .sub-menu-label{
+        float: left;
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      .sub-menu-list{
+        float: right;
+        padding: 0 20px;
+        a{
+          margin-bottom: 8px;
+        }
+      }
+      > li{
+        display: inline-block;
+        vertical-align: top;
+        border-right: 1px solid #ccc;
+        &:last-child{
+          border-right: none;
+        }
+        + li{
+          .sub-menu-label{
+            margin-left: 20px;
+          }
+        }
+      }
+      a{
+        display: block;
+        text-decoration: none;
+        margin-bottom: 15px;
+        line-height: 1.2;
+        &:hover{
+          opacity: 0.5;
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      &.search-school{
+        width: 525px;
+        > li {
+          min-height: 176px;
+        }
+      }
+      &.student-sharing{
+        width: 131px;
+      }
+      &.news{
+        width: 105px;
+      }
+      &.events{
+        width: 156px;
+      }
+      &.about{
+        width: 168px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "shared/variables";
+
+.banner{
+  position: relative;
+  height: 270px;
+  width: 100%;
+  background-image: image_url("bg-news-banner.png");
+  background-size: cover;
+  background-position: center center;
+  h3{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: #fff;
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba($primary-color, 0.7);
+  }
+}

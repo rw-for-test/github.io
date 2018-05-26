@@ -1,0 +1,11 @@
+.oh-apply-list{
+  padding-top: 20px;
+  .row{
+    > [class*="col-"]{
+      float: none;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: -3px;
+    }
+  }
+}

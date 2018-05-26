@@ -1,0 +1,72 @@
+@import "shared/variables";
+
+.countries{
+  .row{
+    margin-left: -10px;
+    margin-right: -10px;
+    > [class*="col-"]{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+  .col-sm-3{
+    height: 100%;
+  }
+  .country-grid{
+    height: 480px;
+    margin-bottom: 20px;
+  }
+  .country-wrapper{
+    display: block;
+    height: 100%;
+    opacity: 1;
+  }
+  .country-box{
+    position: relative;
+    background-color: #aaa;
+    text-align: center;
+    width: 100%;
+    height: 230px;
+    margin: 10px auto;
+    background-size: auto 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+    .country-name{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      right: 0;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      > span{
+        display: block;
+      }
+      .en{
+        font-weight: normal;
+      }
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 0;
+      transition: background 0.2s;
+    }
+    &:hover{
+      background-size: auto 110%;
+      &:before{
+        background: rgba($primary-color, 0.85);
+      }
+    }
+    &.h-2x{
+      height: 100%;
+    }
+  }
+}
