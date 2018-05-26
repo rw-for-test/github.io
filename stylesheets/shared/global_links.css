@@ -45,7 +45,9 @@
     /* line 44, /Users/ruoshin/repos/test/source/stylesheets/shared/global_links.scss */
     .global-links ul > li.back-to-top {
       background: url("/images/landing/btn_back_normal.png") center no-repeat;
-      background-size: cover; }
+      background-size: cover;
+      opacity: 0;
+      transition: opacity .5s; }
       /* line 49, /Users/ruoshin/repos/test/source/stylesheets/shared/global_links.scss */
       .global-links ul > li.back-to-top:hover {
         opacity: 0.5; }

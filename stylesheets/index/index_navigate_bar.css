@@ -28,25 +28,30 @@
       width: 100%; }
     /* line 29, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .index-navigate-bar-menu.open {
-      display: block; }
-  /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      display: block;
+      z-index: 10; }
+  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar .index-navigate-bar-selector {
     display: none;
     position: absolute; }
-    /* line 36, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .index-navigate-bar-selector li {
       display: none; }
-      /* line 38, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      /* line 39, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
       .index-navigate-bar .index-navigate-bar-selector li a {
         line-height: 16px;
         color: #fff;
         display: inline-block;
         vertical-align: middle;
-        padding: 22px 0; }
-      /* line 45, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+        padding: 22px 0;
+        font-weight: bold; }
+        /* line 46, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+        .index-navigate-bar .index-navigate-bar-selector li a, .index-navigate-bar .index-navigate-bar-selector li a:hover {
+          opacity: 1; }
+      /* line 50, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
       .index-navigate-bar .index-navigate-bar-selector li.active {
         display: block; }
-      /* line 48, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+      /* line 53, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
       .index-navigate-bar .index-navigate-bar-selector li:after {
         content: '';
         display: inline-block;
@@ -56,34 +61,34 @@
         width: 12px;
         height: 12px;
         margin-left: 8px; }
-  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  /* line 65, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar .search {
     cursor: pointer; }
-    /* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 67, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .search img {
       width: 20px;
       height: 20px; }
-    /* line 66, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 71, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .search > * {
       display: inline-block;
       vertical-align: middle; }
-    /* line 70, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 75, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar .search.is-mobile {
       display: none;
       position: absolute;
       top: 16px;
       right: 40px; }
-  /* line 77, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+  /* line 82, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar.is-sticky {
     position: fixed;
     top: 80px;
     width: 100%;
     z-index: 3;
     background: rgba(18, 0, 124, 0.95); }
-    /* line 84, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 89, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky li > a {
       opacity: 0.7; }
-    /* line 88, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 93, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky li.active > a {
       opacity: 1;
       font-weight: bold; }

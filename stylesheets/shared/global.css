@@ -54,3 +54,8 @@ ul {
 /* line 57, /Users/ruoshin/repos/test/source/stylesheets/shared/global.scss */
 .modal .info-group .info-content {
   font-weight: bold; }
+
+/* line 62, /Users/ruoshin/repos/test/source/stylesheets/shared/global.scss */
+.button-center-align {
+  text-align: center;
+  padding: 40px 0 80px; }
