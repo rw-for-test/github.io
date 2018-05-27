@@ -8040,13 +8040,27 @@ ul {
     vertical-align: top;
     width: 33%; }
 
-/* line 15, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+#slider-banner .item {
+  height: 500px;
+  width: 100%; }
+  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+  #slider-banner .item .item-background-image {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center;
+    background-size: cover;
+    display: block; }
+    /* line 11, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+    #slider-banner .item .item-background-image.mobile-size {
+      display: none; }
+/* line 16, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
 #slider-banner .carousel-control {
   text-shadow: none; }
-  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
   #slider-banner .carousel-control.left, #slider-banner .carousel-control.right {
     background: none; }
-/* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
+/* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
 #slider-banner .carousel-indicators {
   text-align: right;
   z-index: 1; }
@@ -8066,7 +8080,7 @@ ul {
     width: 100%;
     height: 100%;
     background: no-repeat center;
-    background-size: auto 240px;
+    background-size: cover;
     display: block; }
     /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
     #slider-events .item .item-background-image.mobile-size {
@@ -9160,10 +9174,14 @@ ul {
         float: none; } }
 /* 767px end */
 @media (max-width: 376px) {
-  /* line 372, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  #slider-events .item .item-background-image.desktop-size {
+  /* line 370, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-banner .item {
+    height: 300px; }
+
+  /* line 377, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-banner .item .item-background-image.desktop-size, #slider-events .item .item-background-image.desktop-size {
     display: none; }
-  /* line 375, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  #slider-events .item .item-background-image.mobile-size {
+  /* line 380, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-banner .item .item-background-image.mobile-size, #slider-events .item .item-background-image.mobile-size {
     display: block; } }
 /* 376px end */

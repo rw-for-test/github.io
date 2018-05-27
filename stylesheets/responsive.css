@@ -315,10 +315,14 @@
         float: none; } }
 /* 767px end */
 @media (max-width: 376px) {
-  /* line 372, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  #slider-events .item .item-background-image.desktop-size {
+  /* line 370, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-banner .item {
+    height: 300px; }
+
+  /* line 377, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-banner .item .item-background-image.desktop-size, #slider-events .item .item-background-image.desktop-size {
     display: none; }
-  /* line 375, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
-  #slider-events .item .item-background-image.mobile-size {
+  /* line 380, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  #slider-banner .item .item-background-image.mobile-size, #slider-events .item .item-background-image.mobile-size {
     display: block; } }
 /* 376px end */

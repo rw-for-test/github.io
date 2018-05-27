@@ -13,7 +13,7 @@
     width: 100%;
     height: 100%;
     background: no-repeat center;
-    background-size: auto 240px;
+    background-size: cover;
     display: block; }
     /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
     #slider-events .item .item-background-image.mobile-size {
