@@ -6,11 +6,19 @@
     background: none; }
 /* line 8, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
 #slider-events .item {
-  background: no-repeat center;
-  background-size: auto 240px;
   height: 240px;
   width: 100%; }
-  /* line 13, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+  /* line 11, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+  #slider-events .item .item-background-image {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center;
+    background-size: auto 240px;
+    display: block; }
+    /* line 17, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+    #slider-events .item .item-background-image.mobile-size {
+      display: none; }
+  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
   #slider-events .item:before {
     content: '';
     position: absolute;
@@ -20,15 +28,15 @@
     right: 0;
     background: rgba(0, 0, 0, 0.3);
     z-index: 0; }
-/* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+/* line 32, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
 #slider-events .carousel-caption {
   text-shadow: none; }
-  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
   #slider-events .carousel-caption .event-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px; }
-  /* line 31, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
+  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
   #slider-events .carousel-caption .event-link {
     border: 2px solid #fff;
     color: #fff; }

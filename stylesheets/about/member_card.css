@@ -12,23 +12,29 @@
     /* line 13, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
     .member-card .member-image > img {
       width: 100%; }
-  /* line 17, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    /* line 16, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    .member-card .member-image .placeholder {
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 26px; }
+  /* line 23, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
   .member-card .member-header {
     margin-bottom: 10px; }
-    /* line 19, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    /* line 25, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
     .member-card .member-header .name {
       font-size: 18px;
       font-weight: bold;
       margin-bottom: 5px; }
-    /* line 23, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+    /* line 29, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
     .member-card .member-header .title {
       line-height: 1; }
-  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
   .member-card .member-body .info-group .info-label {
     float: left;
     width: 50px;
     color: #6f7075; }
-  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
+  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
   .member-card .member-body .info-group .info-value {
     float: left;
     width: calc(100% - 50px);

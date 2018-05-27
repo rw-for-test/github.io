@@ -28,7 +28,7 @@ $(document).ready(function(){
   const indexNavigateBar = $('.index-navigate-bar')
   const headerHeight = $('.l-header').height()
   const footerHeight = $('.l-footer').height()
-  const footerOffset = $('.l-footer').offset().top
+  const footerOffset = $('.l-footer').offset().top + 60
   if(indexNavigateBar.length > 0){
     const offsetTop = indexNavigateBar.offset().top - headerHeight
     $(window).scroll(function(){
@@ -67,7 +67,7 @@ $(document).ready(function(){
     if(!defaultSelector){
       $('.index-navigate-bar-selector li').first().addClass('active')
     }
-
+    console.log($(window).scrollTop())
     //Interaction of global link back to top button
     if ($(window).height() + $(window).scrollTop() >= footerOffset){
       const globalLinksOffset = $(window).height() + $(window).scrollTop() - footerOffset
@@ -75,6 +75,10 @@ $(document).ready(function(){
       $('.global-links').css('bottom', globalLinksOffset)
     }else{
       $('.global-links .back-to-top').css('opacity', 1)
+    }
+
+    if($(window).scrollTop() <= 10){
+      $('.global-links .back-to-top').css('opacity', 0)
     }
   })
 

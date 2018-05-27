@@ -61,37 +61,43 @@
     .about-oh-study .about-our-service .content li {
       margin-bottom: 5px; }
       /* line 62, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
-      .about-oh-study .about-our-service .content li > * {
-        display: inline-block;
-        vertical-align: middle;
-        line-height: 1; }
-      /* line 67, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
       .about-oh-study .about-our-service .content li:before {
         content: '';
-        display: inline-block;
-        vertical-align: middle;
+        display: block;
+        float: left;
         width: 8px;
         height: 8px;
-        background: #6f7075;
+        background: #949CBF;
         border-radius: 8px;
+        margin-top: 6px;
         margin-right: 10px; }
-    /* line 78, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      /* line 73, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      .about-oh-study .about-our-service .content li span {
+        display: block;
+        overflow: hidden; }
+      /* line 77, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      .about-oh-study .about-our-service .content li:after {
+        content: '';
+        display: block;
+        clear: both; }
+    /* line 83, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-our-service .content img {
       width: 100%;
       max-width: 540px;
       margin: 20px 0 60px; }
-/* line 85, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 90, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-advantage {
   background: #f2f5f7;
   padding: 40px 0; }
-  /* line 88, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 93, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage li {
-    clear: both;
     margin-bottom: 15px; }
-    /* line 91, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 95, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li span {
-      line-height: 24px; }
-    /* line 94, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      line-height: 24px;
+      overflow: hidden;
+      display: block; }
+    /* line 100, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:before {
       content: '';
       display: block;
@@ -100,19 +106,24 @@
       height: 24px;
       background-size: cover;
       margin-right: 10px; }
-    /* line 103, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 109, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    .about-oh-study .about-advantage li:after {
+      content: '';
+      display: block;
+      clear: both; }
+    /* line 114, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:last-child {
       margin-bottom: 0; }
-  /* line 109, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 120, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage .why-choose-us li:before {
     background-image: url("/images/about/icn_star.png"); }
-  /* line 116, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 127, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage .consumer-guarantee li:before {
     background-image: url("/images/about/icn_promise.png"); }
-/* line 122, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 133, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-team-members {
   padding: 40px 0; }
-  /* line 125, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 136, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-team-members .member-list .member-card {
     display: inline-block;
     vertical-align: top;
