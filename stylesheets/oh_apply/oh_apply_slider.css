@@ -1,0 +1,24 @@
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+#oh-apply-slider .item {
+  height: 300px;
+  width: 100%; }
+  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+  #oh-apply-slider .item .item-background-image {
+    width: 100%;
+    height: 100%;
+    background: no-repeat center;
+    background-size: cover;
+    display: block; }
+    /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item .item-background-image.mobile-size {
+      display: none; }
+/* line 16, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+#oh-apply-slider .carousel-control {
+  text-shadow: none; }
+  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+  #oh-apply-slider .carousel-control.left, #oh-apply-slider .carousel-control.right {
+    background: none; }
+/* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+#oh-apply-slider .carousel-indicators {
+  text-align: right;
+  z-index: 1; }

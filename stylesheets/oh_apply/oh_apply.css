@@ -1,0 +1,49 @@
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply .banner {
+  height: 300px; }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+  .oh-apply .banner h3 {
+    font-size: 32px;
+    font-weight: bold; }
+/* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.america .oh-apply-search-bar {
+  background: #154188; }
+/* line 16, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.america .oh-apply-header-tabs li.active a {
+  color: #154188; }
+/* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.canada .oh-apply-search-bar {
+  background: #de1e37; }
+/* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.canada .oh-apply-header-tabs li.active a {
+  color: #de1e37; }
+/* line 32, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.england .oh-apply-search-bar {
+  background: #eda409; }
+/* line 36, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.england .oh-apply-header-tabs li.active a {
+  color: #eda409; }
+/* line 42, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.europe .oh-apply-search-bar {
+  background: #ed6109; }
+/* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.europe .oh-apply-header-tabs li.active a {
+  color: #ed6109; }
+/* line 52, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.new-zealand .oh-apply-search-bar {
+  background: #8dc22c; }
+/* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.new-zealand .oh-apply-header-tabs li.active a {
+  color: #8dc22c; }
+/* line 62, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.australia .oh-apply-search-bar {
+  background: #d70050; }
+/* line 66, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.australia .oh-apply-header-tabs li.active a {
+  color: #d70050; }
+/* line 72, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.others .oh-apply-search-bar {
+  background: #01a1a3; }
+/* line 76, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.others .oh-apply-header-tabs li.active a {
+  color: #01a1a3; }

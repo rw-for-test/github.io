@@ -13,7 +13,7 @@
     <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" />
   </head>
 
-  <body class="ohapply ohapply_ohapply" data-spy="scroll" data-target="#index-navigate-bar" data-offset='140'>
+  <body class="ohapply ohapply_ohapply-america" data-spy="scroll" data-target="#index-navigate-bar" data-offset='140'>
     <div class='l-header navbar navbar-default'>
   <div class='l-container'>
     <div class="navbar-header">
@@ -119,10 +119,63 @@
 </div>
 
     <div class="l-content">
-      <div class="oh-apply">
-  <div class="banner">
-    <h3>全部國家</h3>
+      <!--
+選擇國家時需要帶入對應的 class name，若是「全部國家」則不需帶入
+['america', 'canada', 'england', 'europe', 'new-zealand', 'australia', 'others']
+-->
+<div class="oh-apply america">
+  <div id="oh-apply-slider" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#oh-apply-slider" data-slide-to="0" class="active"></li>
+    <li data-target="#oh-apply-slider" data-slide-to="1"></li>
+    <li data-target="#oh-apply-slider" data-slide-to="2"></li>
+    <li data-target="#oh-apply-slider" data-slide-to="3"></li>
+    <li data-target="#oh-apply-slider" data-slide-to="4"></li>
+    <li data-target="#oh-apply-slider" data-slide-to="5"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class='item-background-image desktop-size' style="background-image: url('http://via.placeholder.com/1440x300')"></div>
+      <div class='item-background-image mobile-size' style="background-image: url('http://via.placeholder.com/480x300')"></div>
+    </div>
+    <div class="item">
+      <div class='item-background-image desktop-size' style="background-image: url('http://via.placeholder.com/1440x300')"></div>
+      <div class='item-background-image mobile-size' style="background-image: url('http://via.placeholder.com/480x300')"></div>
+    </div>
+    <div class="item">
+      <div class='item-background-image desktop-size' style="background-image: url('http://via.placeholder.com/1440x300')"></div>
+      <div class='item-background-image mobile-size' style="background-image: url('http://via.placeholder.com/480x300')"></div>
+    </div>
+    <div class="item">
+      <div class='item-background-image desktop-size' style="background-image: url('http://via.placeholder.com/1440x300')"></div>
+      <div class='item-background-image mobile-size' style="background-image: url('http://via.placeholder.com/480x300')"></div>
+    </div>
+    <div class="item">
+      <div class='item-background-image desktop-size' style="background-image: url('http://via.placeholder.com/1440x300')"></div>
+      <div class='item-background-image mobile-size' style="background-image: url('http://via.placeholder.com/480x300')"></div>
+    </div>
+    <div class="item">
+      <div class='item-background-image desktop-size' style="background-image: url('http://via.placeholder.com/1440x300')"></div>
+      <div class='item-background-image mobile-size' style="background-image: url('http://via.placeholder.com/480x300')"></div>
+    </div>
   </div>
+
+  <!-- Controls -->
+  <!--
+  <a class="left carousel-control" href="#oh-apply-slider" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#oh-apply-slider" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  -->
+</div>
+
   <div class='oh-apply-search-bar'>
   <div class='l-container'>
     <div class='selector selector-country'>
@@ -327,6 +380,23 @@
         <div class='selector-label'>熱門特蒐</div>
       </div>
     </div>
+  </div>
+</div>
+
+  <div class='oh-apply-header'>
+  <div class='l-container'>
+    <div class='oh-apply-header-title'>
+      <span class='country'>加拿大</span>
+      <span class='city'>全部城市</span>
+      <span class='course'>全部課程</span>
+    </div>
+    <ul class="oh-apply-header-tabs">
+      <li class='active'><a href="/ohapply/ohapply">全部學校</a></li>
+      <li class=''><a href="/ohapply/city-introduction">熱門城市</a></li>
+      <li class=''><a href="/ohapply/education-system">教育制度</a></li>
+      <li class=''><a href="/ohapply/seminars">說明會</a></li>
+      <li class=''><a href="/ohapply/news">最新消息</a></li>
+    </ul>
   </div>
 </div>
 
@@ -749,6 +819,407 @@
         </li>
       </ul>
     </nav>
+  </div>
+</div>
+
+  <div class='oh-apply-extend'>
+  <div class="l-container">
+    <div class='extend-section'>
+      <h2>你可能也有興趣</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+  <div class='school-card'>
+    <a href='#' class='school-card-wrapper'>
+      <div class='school-card-img'>
+        <img src='http://via.placeholder.com/210x140'>
+      </div>
+      <div class='school-card-header'>
+        <span class='en'>California State University Monterey Bay</span>
+        <span class='ch'>加州州立大學 蒙特利灣分校</span>
+      </div>
+      <div class='school-card-body'>
+        <span class='text'>
+          永遠要把對手想得非常強大，做企業不是做俠客，有買的或租的，你說下半年會比上半年悲觀
+        </span>
+      </div>
+      <div class="school-card-tag">
+        學費減免
+      </div>
+    </a>
+  </div>
+</div>
+
+        <div class="col-md-3 col-sm-4 col-xs-12">
+  <div class='school-card'>
+    <a href='#' class='school-card-wrapper'>
+      <div class='school-card-img'>
+        <img src='http://via.placeholder.com/210x140'>
+      </div>
+      <div class='school-card-header'>
+        <span class='en'>California State University Monterey Bay</span>
+        <span class='ch'>加州州立大學 蒙特利灣分校</span>
+      </div>
+      <div class='school-card-body'>
+        <span class='text'>
+          知走一光年，心容易悄悄破碎獨處的時候，撇開日子的奔忙
+        </span>
+      </div>
+      <div class="school-card-tag">
+        學費減免
+      </div>
+    </a>
+  </div>
+</div>
+
+        <div class="col-md-3 col-sm-4 col-xs-12">
+  <div class='school-card'>
+    <a href='#' class='school-card-wrapper'>
+      <div class='school-card-img'>
+        <img src='http://via.placeholder.com/210x140'>
+      </div>
+      <div class='school-card-header'>
+        <span class='en'>California State University Monterey Bay</span>
+        <span class='ch'>加州州立大學 蒙特利灣分校</span>
+      </div>
+      <div class='school-card-body'>
+        <span class='text'>
+          千日為鳥終成人，安睡在天地的大房間。
+        </span>
+      </div>
+      <div class="school-card-tag">
+        學費減免
+      </div>
+    </a>
+  </div>
+</div>
+
+        <div class="col-md-3 col-sm-4 col-xs-12">
+  <div class='school-card'>
+    <a href='#' class='school-card-wrapper'>
+      <div class='school-card-img'>
+        <img src='http://via.placeholder.com/210x140'>
+      </div>
+      <div class='school-card-header'>
+        <span class='en'>California State University Monterey Bay</span>
+        <span class='ch'>加州州立大學 蒙特利灣分校</span>
+      </div>
+      <div class='school-card-body'>
+        <span class='text'>
+          跟往常一樣，走吧，好了嗎，快一點，笑一個，別激動
+        </span>
+      </div>
+      <div class="school-card-tag">
+        學費減免
+      </div>
+    </a>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <div class='extend-section courses'>
+      <h2>精選專區</h2>
+      <div class='row'>
+        <div class='col-md-3 col-sm-6'>
+          <div class='course-box'>
+            <div class='course-img'>
+              <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+            </div>
+            <div class='course-title'>大學/研究所</div>
+            <ul class='course-articles'>
+              <li>
+                <a href='#'>精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='col-md-3 col-sm-6'>
+          <div class='course-box'>
+            <div class='course-img'>
+              <img src="/images/landing/img_course_02.png" alt="Img course 02" />
+            </div>
+            <div class='course-title'>學院</div>
+            <ul class='course-articles'>
+              <li>
+                <a href='#'>精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='col-md-3 col-sm-6'>
+          <div class='course-box'>
+            <div class='course-img'>
+              <img src="/images/landing/img_course_03.png" alt="Img course 03" />
+            </div>
+            <div class='course-title'>語言學校</div>
+            <ul class='course-articles'>
+              <li>
+                <a href='#'>精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='col-md-3 col-sm-6'>
+          <div class='course-box'>
+            <div class='course-img'>
+              <img src="/images/landing/img_course_04.png" alt="Img course 04" />
+            </div>
+            <div class='course-title'>高中</div>
+            <ul class='course-articles'>
+              <li>
+                <a href='#'>精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+              <li>
+                <a href='#'>精選文章標題內容精選文章標題內容精選文章標題內容精選文章標題內容</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <div id='experience-sharing' class='experience-sharing'>
+  <div class='l-container'>
+    <h2>校友分享</h2>
+    <div class='row'>
+      <div class='col-sm-4'>
+        <div class='sharing-box'>
+  <div class='sharing-img'>
+    <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+  </div>
+  <div class='sharing-header'>
+    <div class='title'>歐瑞恩</div>
+    <div class='sub-title'>加拿大・留學 3 年</div>
+  </div>
+  <div class='sharing-body'>
+    <div class='text'>怎樣那晚上買琴來的時候你已經在你的小床上睡好，你知道的是慈母的愛，不止是苦，稍稍疏洩我的積愫，身影似的不可解脫。</div>
+  </div>
+  <div class='sharing-footer'>
+    <button class='btn btn-link-style' data-toggle='modal' data-target='#seminars-modal-3'>
+      看全文
+    </button>
+    <span class='divider'>|</span>
+    <a href='https://www.youtube.com/' target='_blank' class='btn btn-link-style'>
+      <span>觀看影片</span>
+      <img class="icon-play" src="/images/landing/btn_play_normal.png" alt="Btn play normal" />
+    </a>
+  </div>
+  <div class='modal fade' id='seminars-modal-3' tabindex='-1' role='dialog'>
+    <div class='modal-dialog' role='document'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+        </div>
+        <div class='modal-body'>
+          <div class='sharing-img'>
+            <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+          </div>
+          <div class='sharing-header sharing-modal-header'>
+            <div class='title'>歐瑞恩</div>
+            <div class='sub-title'>加拿大・留學 3 年</div>
+          </div>
+          <div class='sharing-body sharing-modal-body'>
+            <div class='text'>怎樣那晚上買琴來的時候你已經在你的小床上睡好，你知道的是慈母的愛，不止是苦，稍稍疏洩我的積愫，身影似的不可解脫。</div>
+            <hr />
+            <div class='content'>
+              <p>學校：<strong>EC English Language Centres - EC 語言中心(美/加/英/馬爾他/南非)</strong></p>
+              <p>之所以會選擇聖地牙哥，是因為這裡四季如春，當地居民對待外地人非常友善，還有美麗的城市風光，我非常享受在這的這段時間。<br />
+              在這段時間裡，我有很多美好的回憶，特別是學校坐落的La Jolly Cove，這裡的美景令人難以忘懷。<br />
+              課程:我目前就讀中級課程，除了主要課程之外，我們還有生活用語和美國文化課程，對我而言都是非常有幫助的。<br />
+              住宿:之前我住在寄宿家庭，我非常喜歡那裡，屋主對待我像自家人一樣親切，雖然現在我搬出去了，但是每個星期，我還是會拜訪他們。<br />
+              學校位置:學校的地點非常棒，在學校後方是美麗的海灣，我常在那享受我的午餐和陽光。<br />
+              師資:學校裡的老師們都非常專業，我們也相處的非常愉快。在這的這段時間裡，我可以感覺到自己的英文有明顯的進步。<br />
+              Wen Hao</p>
+            </div>
+            <img src='http://via.placeholder.com/680x1000'>
+          </div>
+          <div class='sharing-modal-footer'>
+            <div class='action'>
+              <a href="/webform.html" class="btn btn-primary btn-lg">馬上預約諮詢</a>
+            </div>
+            <div class='action'>
+              <a href="/" class="btn btn-link-style">了解學校詳情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class='col-sm-4'>
+        <div class='sharing-box'>
+  <div class='sharing-img'>
+    <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+  </div>
+  <div class='sharing-header'>
+    <div class='title'>歐瑞恩</div>
+    <div class='sub-title'>加拿大・留學 3 年</div>
+  </div>
+  <div class='sharing-body'>
+    <div class='text'>怎樣那晚上買琴來的時候你已經在你的小床上睡好，你知道的是慈母的愛，不止是苦，稍稍疏洩我的積愫，身影似的不可解脫。</div>
+  </div>
+  <div class='sharing-footer'>
+    <button class='btn btn-link-style' data-toggle='modal' data-target='#seminars-modal-3'>
+      看全文
+    </button>
+    <span class='divider'>|</span>
+    <a href='https://www.youtube.com/' target='_blank' class='btn btn-link-style'>
+      <span>觀看影片</span>
+      <img class="icon-play" src="/images/landing/btn_play_normal.png" alt="Btn play normal" />
+    </a>
+  </div>
+  <div class='modal fade' id='seminars-modal-3' tabindex='-1' role='dialog'>
+    <div class='modal-dialog' role='document'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+        </div>
+        <div class='modal-body'>
+          <div class='sharing-img'>
+            <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+          </div>
+          <div class='sharing-header sharing-modal-header'>
+            <div class='title'>歐瑞恩</div>
+            <div class='sub-title'>加拿大・留學 3 年</div>
+          </div>
+          <div class='sharing-body sharing-modal-body'>
+            <div class='text'>怎樣那晚上買琴來的時候你已經在你的小床上睡好，你知道的是慈母的愛，不止是苦，稍稍疏洩我的積愫，身影似的不可解脫。</div>
+            <hr />
+            <div class='content'>
+              <p>學校：<strong>EC English Language Centres - EC 語言中心(美/加/英/馬爾他/南非)</strong></p>
+              <p>之所以會選擇聖地牙哥，是因為這裡四季如春，當地居民對待外地人非常友善，還有美麗的城市風光，我非常享受在這的這段時間。<br />
+              在這段時間裡，我有很多美好的回憶，特別是學校坐落的La Jolly Cove，這裡的美景令人難以忘懷。<br />
+              課程:我目前就讀中級課程，除了主要課程之外，我們還有生活用語和美國文化課程，對我而言都是非常有幫助的。<br />
+              住宿:之前我住在寄宿家庭，我非常喜歡那裡，屋主對待我像自家人一樣親切，雖然現在我搬出去了，但是每個星期，我還是會拜訪他們。<br />
+              學校位置:學校的地點非常棒，在學校後方是美麗的海灣，我常在那享受我的午餐和陽光。<br />
+              師資:學校裡的老師們都非常專業，我們也相處的非常愉快。在這的這段時間裡，我可以感覺到自己的英文有明顯的進步。<br />
+              Wen Hao</p>
+            </div>
+            <img src='http://via.placeholder.com/680x1000'>
+          </div>
+          <div class='sharing-modal-footer'>
+            <div class='action'>
+              <a href="/webform.html" class="btn btn-primary btn-lg">馬上預約諮詢</a>
+            </div>
+            <div class='action'>
+              <a href="/" class="btn btn-link-style">了解學校詳情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+      <div class='col-sm-4'>
+        <div class='sharing-box'>
+  <div class='sharing-img'>
+    <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+  </div>
+  <div class='sharing-header'>
+    <div class='title'>歐瑞恩</div>
+    <div class='sub-title'>加拿大・留學 3 年</div>
+  </div>
+  <div class='sharing-body'>
+    <div class='text'>怎樣那晚上買琴來的時候你已經在你的小床上睡好，你知道的是慈母的愛，不止是苦，稍稍疏洩我的積愫，身影似的不可解脫。</div>
+  </div>
+  <div class='sharing-footer'>
+    <button class='btn btn-link-style' data-toggle='modal' data-target='#seminars-modal-3'>
+      看全文
+    </button>
+    <span class='divider'>|</span>
+    <a href='https://www.youtube.com/' target='_blank' class='btn btn-link-style'>
+      <span>觀看影片</span>
+      <img class="icon-play" src="/images/landing/btn_play_normal.png" alt="Btn play normal" />
+    </a>
+  </div>
+  <div class='modal fade' id='seminars-modal-3' tabindex='-1' role='dialog'>
+    <div class='modal-dialog' role='document'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'><span aria-hidden='true'>&times;</span></button>
+        </div>
+        <div class='modal-body'>
+          <div class='sharing-img'>
+            <img src="/images/landing/img_course_01.png" alt="Img course 01" />
+          </div>
+          <div class='sharing-header sharing-modal-header'>
+            <div class='title'>歐瑞恩</div>
+            <div class='sub-title'>加拿大・留學 3 年</div>
+          </div>
+          <div class='sharing-body sharing-modal-body'>
+            <div class='text'>怎樣那晚上買琴來的時候你已經在你的小床上睡好，你知道的是慈母的愛，不止是苦，稍稍疏洩我的積愫，身影似的不可解脫。</div>
+            <hr />
+            <div class='content'>
+              <p>學校：<strong>EC English Language Centres - EC 語言中心(美/加/英/馬爾他/南非)</strong></p>
+              <p>之所以會選擇聖地牙哥，是因為這裡四季如春，當地居民對待外地人非常友善，還有美麗的城市風光，我非常享受在這的這段時間。<br />
+              在這段時間裡，我有很多美好的回憶，特別是學校坐落的La Jolly Cove，這裡的美景令人難以忘懷。<br />
+              課程:我目前就讀中級課程，除了主要課程之外，我們還有生活用語和美國文化課程，對我而言都是非常有幫助的。<br />
+              住宿:之前我住在寄宿家庭，我非常喜歡那裡，屋主對待我像自家人一樣親切，雖然現在我搬出去了，但是每個星期，我還是會拜訪他們。<br />
+              學校位置:學校的地點非常棒，在學校後方是美麗的海灣，我常在那享受我的午餐和陽光。<br />
+              師資:學校裡的老師們都非常專業，我們也相處的非常愉快。在這的這段時間裡，我可以感覺到自己的英文有明顯的進步。<br />
+              Wen Hao</p>
+            </div>
+            <img src='http://via.placeholder.com/680x1000'>
+          </div>
+          <div class='sharing-modal-footer'>
+            <div class='action'>
+              <a href="/webform.html" class="btn btn-primary btn-lg">馬上預約諮詢</a>
+            </div>
+            <div class='action'>
+              <a href="/" class="btn btn-link-style">了解學校詳情</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <div class="button-center-align">
+      <a href="/osstudent.html" class="btn btn-secondary">看更多心得分享</a>
+    </div>
   </div>
 </div>
 

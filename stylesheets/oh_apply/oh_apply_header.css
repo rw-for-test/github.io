@@ -1,25 +1,42 @@
-/* line 1, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
 .oh-apply-header {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
-  /* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
   .oh-apply-header .oh-apply-header-title {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
-    padding: 20px 0; }
-    /* line 8, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    padding: 10px 0; }
+    /* line 9, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
     .oh-apply-header .oh-apply-header-title > span:after {
       content: ' / '; }
-    /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    /* line 13, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
     .oh-apply-header .oh-apply-header-title > span:last-child:after {
       content: ''; }
-  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+  /* line 19, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
   .oh-apply-header .oh-apply-header-tabs {
-    padding-bottom: 15px; }
-    /* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    padding-top: 6px;
+    padding-bottom: 10px; }
+    /* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
     .oh-apply-header .oh-apply-header-tabs > li {
       display: inline-block;
       font-size: 18px;
-      margin-right: 50px; }
-      /* line 24, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+      margin-right: 40px; }
+      /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
       .oh-apply-header .oh-apply-header-tabs > li.active {
+        position: relative;
         font-weight: bold; }
+        /* line 29, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+        .oh-apply-header .oh-apply-header-tabs > li.active:after {
+          content: '';
+          position: absolute;
+          width: 0;
+          height: 0;
+          top: 34px;
+          margin-left: -0.5em;
+          left: 50%;
+          box-sizing: border-box;
+          border: 5px solid black;
+          border-color: transparent transparent #fff #fff;
+          transform-origin: 0 0;
+          transform: rotate(-45deg);
+          box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.07); }

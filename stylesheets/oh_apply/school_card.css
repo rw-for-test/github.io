@@ -5,22 +5,26 @@
   padding: 15px;
   margin-top: 20px;
   background: #fff;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
-  /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
+  box-shadow: 0 2px 10px rgba(40, 49, 63, 0.15); }
+  /* line 10, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
+  .school-card .school-card-wrapper {
+    width: 100%; }
+  /* line 14, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
   .school-card .school-card-img img {
     width: 100%; }
-  /* line 15, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
+  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
   .school-card .school-card-header {
-    padding-top: 10px; }
-    /* line 17, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
     .school-card .school-card-header > span {
       display: block;
       font-weight: bold;
       line-height: 1.2; }
-  /* line 23, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
-  .school-card .school-card-body {
-    padding-top: 10px; }
-  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
+    /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
+    .school-card .school-card-header .en {
+      margin-bottom: 5px; }
+  /* line 32, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_card.scss */
   .school-card .school-card-tag {
     position: absolute;
     top: 0;

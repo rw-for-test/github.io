@@ -1,22 +1,25 @@
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
 .oh-apply-search-bar {
-  background: #232941;
+  background: #12007c;
   color: #fff;
-  padding: 14px 0; }
+  padding: 16px 0; }
   /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
   .oh-apply-search-bar .selector {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 30px; }
+    margin-right: 40px; }
     /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
     .oh-apply-search-bar .selector .oh-apply-selector-options .field-label {
       color: rgba(0, 0, 0, 0.5);
       display: block;
       margin: 10px 0; }
-  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+    /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+    .oh-apply-search-bar .selector.selector-advance {
+      margin-right: 20px; }
+  /* line 23, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
   .oh-apply-search-bar .selector-advance .oh-apply-selector-options {
     width: 450px; }
-  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
   .oh-apply-search-bar .selector-popular {
-    border-left: 1px solid rgba(255, 255, 255, 0.4);
-    padding-left: 30px; }
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 20px; }
