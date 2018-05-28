@@ -87,7 +87,7 @@
 
 /* line 98, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .pagination {
-  margin: 40px 0 0; }
+  margin: 30px 0 0; }
   /* line 101, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .pagination > li > a {
     border: none;
@@ -99,27 +99,28 @@
   /* line 111, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .pagination .active > a {
     border: none;
-    background: #0629cc; }
+    background: #0629cc;
+    z-index: 1; }
 
-/* line 119, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 120, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-dialog {
   width: 760px;
   margin: 60px auto; }
-/* line 123, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 124, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-content {
   box-shadow: none; }
-/* line 126, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 127, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-header {
   padding: 40px;
   border-bottom: none; }
-  /* line 129, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 130, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-header .modal-title {
     font-size: 22px;
     font-weight: bold; }
-/* line 134, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 135, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-body {
   padding: 0 40px 40px;
   line-height: 1.7; }
-  /* line 137, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 138, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-body img {
     width: 100%; }

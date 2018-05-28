@@ -5,7 +5,6 @@ function selectValue(ele){
   ele.parentNode.previousElementSibling.innerText = label
 }
 
-
 $('.oh-apply-selector').click(function(e){
   if($('.oh-apply-selector').hasClass('is-open')){
     $('.oh-apply-selector').not($(this)).removeClass('is-open');
@@ -20,3 +19,9 @@ $('.selector-advance .oh-apply-selector-options').click(function(e){
 $(document).click(function() {
     $('.oh-apply-selector').removeClass('is-open');
 });
+
+$('.oh-apply-header-tabs-dropdown').text($('.oh-apply-header-tabs li.active').text())
+$('.oh-apply-header-tabs-dropdown').click(function() {
+  $('.oh-apply-header-tabs').toggleClass('open')
+})
+;

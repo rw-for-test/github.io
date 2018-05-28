@@ -7323,6 +7323,13 @@ ul {
   text-align: center;
   padding: 40px 0 80px; }
 
+/* line 68, /Users/ruoshin/repos/test/source/stylesheets/shared/global.scss */
+.sticky-bar.is-sticky {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  z-index: 3; }
+
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .btn {
   font-size: 14px;
@@ -7412,7 +7419,7 @@ ul {
 
 /* line 98, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .pagination {
-  margin: 40px 0 0; }
+  margin: 30px 0 0; }
   /* line 101, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .pagination > li > a {
     border: none;
@@ -7424,28 +7431,29 @@ ul {
   /* line 111, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .pagination .active > a {
     border: none;
-    background: #0629cc; }
+    background: #0629cc;
+    z-index: 1; }
 
-/* line 119, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 120, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-dialog {
   width: 760px;
   margin: 60px auto; }
-/* line 123, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 124, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-content {
   box-shadow: none; }
-/* line 126, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 127, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-header {
   padding: 40px;
   border-bottom: none; }
-  /* line 129, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 130, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-header .modal-title {
     font-size: 22px;
     font-weight: bold; }
-/* line 134, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+/* line 135, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-body {
   padding: 0 40px 40px;
   line-height: 1.7; }
-  /* line 137, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  /* line 138, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-body img {
     width: 100%; }
 
@@ -8190,15 +8198,11 @@ ul {
       right: 40px; }
   /* line 82, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
   .index-navigate-bar.is-sticky {
-    position: fixed;
-    top: 80px;
-    width: 100%;
-    z-index: 3;
     background: rgba(18, 0, 124, 0.95); }
-    /* line 89, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 85, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky li > a {
       opacity: 0.7; }
-    /* line 93, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
+    /* line 89, /Users/ruoshin/repos/test/source/stylesheets/index/index_navigate_bar.scss */
     .index-navigate-bar.is-sticky li.active > a {
       opacity: 1;
       font-weight: bold; }
@@ -8339,12 +8343,13 @@ ul {
   margin-bottom: 15px; }
 /* line 18, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
 .courses .course-box .course-articles li {
-  margin-bottom: 5px; }
-  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+  margin-bottom: 5px;
+  text-align: left; }
+  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
   .courses .course-box .course-articles li a {
     display: block;
     overflow: hidden; }
-  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+  /* line 25, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
   .courses .course-box .course-articles li:before {
     content: '';
     display: block;
@@ -8355,7 +8360,7 @@ ul {
     background-size: cover;
     margin-top: 1px;
     margin-right: 5px; }
-  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+  /* line 36, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
   .courses .course-box .course-articles li:after {
     content: '';
     clear: both;
@@ -8866,19 +8871,36 @@ ul {
     .oh-apply-header .oh-apply-header-title > span:last-child:after {
       content: ''; }
   /* line 19, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+  .oh-apply-header .oh-apply-header-tabs-wrapper {
+    position: relative; }
+  /* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+  .oh-apply-header .oh-apply-header-tabs-dropdown {
+    display: none;
+    font-size: 18px;
+    padding-bottom: 10px; }
+    /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    .oh-apply-header .oh-apply-header-tabs-dropdown:after {
+      content: 'V';
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px; }
+  /* line 37, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
   .oh-apply-header .oh-apply-header-tabs {
+    background: #fff;
     padding-top: 6px;
     padding-bottom: 10px; }
-    /* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
     .oh-apply-header .oh-apply-header-tabs > li {
       display: inline-block;
       font-size: 18px;
       margin-right: 40px; }
-      /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+      /* line 45, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
       .oh-apply-header .oh-apply-header-tabs > li.active {
         position: relative;
         font-weight: bold; }
-        /* line 29, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
+        /* line 48, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_header.scss */
         .oh-apply-header .oh-apply-header-tabs > li.active:after {
           content: '';
           position: absolute;
@@ -9295,17 +9317,58 @@ ul {
         margin-right: 5px; }
       /* line 359, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
       .about-oh-study .about-team-members .member-list .member-card .member-body .info-value {
-        float: none; } }
+        float: none; }
+
+  /* line 368, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .oh-apply-header .l-container {
+    padding: 0; }
+  /* line 371, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .oh-apply-header .oh-apply-header-title {
+    padding-left: 40px;
+    padding-right: 40px; }
+  /* line 375, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .oh-apply-header .oh-apply-header-tabs-dropdown {
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px; }
+  /* line 380, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .oh-apply-header .oh-apply-header-tabs {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 40px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+    /* line 389, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .oh-apply-header .oh-apply-header-tabs > li {
+      display: block;
+      margin-bottom: 20px; }
+      /* line 392, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+      .oh-apply-header .oh-apply-header-tabs > li.active:after {
+        display: none; }
+    /* line 396, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+    .oh-apply-header .oh-apply-header-tabs.open {
+      display: block; }
+
+  /* line 401, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  .oh-apply-search-bar {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 60px;
+    padding-bottom: 0; } }
 /* 767px end */
-@media (max-width: 376px) {
-  /* line 370, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+@media (max-width: 481px) {
+  /* line 411, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #slider-banner .item {
     height: 300px; }
 
-  /* line 377, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 418, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #slider-banner .item .item-background-image.desktop-size, #slider-events .item .item-background-image.desktop-size {
     display: none; }
-  /* line 380, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
+  /* line 421, /Users/ruoshin/repos/test/source/stylesheets/responsive.scss */
   #slider-banner .item .item-background-image.mobile-size, #slider-events .item .item-background-image.mobile-size {
     display: block; } }
-/* 376px end */
+/* 481px end */
