@@ -1,0 +1,12 @@
+/* line 3, /Users/ruoshin/repos/test/source/stylesheets/news.scss */
+.news.information .banner {
+  background-image: url("/images/news/img_news.png"); }
+/* line 8, /Users/ruoshin/repos/test/source/stylesheets/news.scss */
+.news.discounts .banner {
+  background-image: url("/images/news/img_discount.png"); }
+/* line 11, /Users/ruoshin/repos/test/source/stylesheets/news.scss */
+.news.discounts .discount-box-list {
+  padding-top: 40px; }
+/* line 16, /Users/ruoshin/repos/test/source/stylesheets/news.scss */
+.news.seminars .banner {
+  background-image: url("/images/news/img_lecture.png"); }

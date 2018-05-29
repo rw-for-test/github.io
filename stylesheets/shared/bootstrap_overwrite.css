@@ -117,10 +117,31 @@
   .modal .modal-header .modal-title {
     font-size: 22px;
     font-weight: bold; }
-/* line 135, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    /* line 133, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .modal .modal-header .modal-title .badge {
+      float: left;
+      margin-top: 4px; }
+    /* line 137, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .modal .modal-header .modal-title .title-with-badge {
+      overflow: hidden;
+      display: block; }
+/* line 143, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .modal .modal-body {
   padding: 0 40px 40px;
-  line-height: 1.7; }
-  /* line 138, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  line-height: 1.8; }
+  /* line 146, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-body img {
-    width: 100%; }
+    width: 100%;
+    margin: 20px 0 0; }
+  /* line 150, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .modal .modal-body p {
+    margin-bottom: 20px; }
+/* line 154, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.modal .modal-footer {
+  padding: 0;
+  border: none;
+  text-align: center;
+  margin-top: 40px; }
+  /* line 159, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .modal .modal-footer .action {
+    margin-bottom: 20px; }
