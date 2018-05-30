@@ -12,13 +12,3 @@
     /* line 11, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
     #slider-banner .item .item-background-image.mobile-size {
       display: none; }
-/* line 16, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
-#slider-banner .carousel-control {
-  text-shadow: none; }
-  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
-  #slider-banner .carousel-control.left, #slider-banner .carousel-control.right {
-    background: none; }
-/* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
-#slider-banner .carousel-indicators {
-  text-align: right;
-  z-index: 1; }

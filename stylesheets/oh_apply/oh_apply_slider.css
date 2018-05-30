@@ -1,24 +1,65 @@
-/* line 2, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-#oh-apply-slider .item {
-  height: 300px;
-  width: 100%; }
-  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-  #oh-apply-slider .item .item-background-image {
-    width: 100%;
-    height: 100%;
-    background: no-repeat center;
-    background-size: cover;
-    display: block; }
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+#oh-apply-slider {
+  position: relative; }
+  /* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+  #oh-apply-slider .oh-apply-slider-header {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1; }
     /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-    #oh-apply-slider .item .item-background-image.mobile-size {
-      display: none; }
-/* line 16, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-#oh-apply-slider .carousel-control {
-  text-shadow: none; }
-  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-  #oh-apply-slider .carousel-control.left, #oh-apply-slider .carousel-control.right {
-    background: none; }
-/* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-#oh-apply-slider .carousel-indicators {
-  text-align: right;
-  z-index: 1; }
+    #oh-apply-slider .oh-apply-slider-header:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      background: no-repeat center;
+      background-size: cover;
+      margin-right: 6px; }
+    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .oh-apply-slider-header > * {
+      display: inline-block;
+      vertical-align: middle; }
+  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+  #oh-apply-slider .item {
+    height: 300px;
+    width: 100%; }
+    /* line 29, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item .item-title {
+      position: absolute;
+      top: 250px;
+      left: 0;
+      color: #fff;
+      font-size: 24px;
+      z-index: 2;
+      transform: translateY(50%);
+      opacity: 0;
+      transition: transform .2s .1s, opacity .2s .1s; }
+    /* line 40, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item .item-background-image {
+      width: 100%;
+      height: 100%;
+      background: no-repeat center;
+      background-size: cover;
+      display: block; }
+      /* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+      #oh-apply-slider .item .item-background-image.mobile-size {
+        display: none; }
+    /* line 51, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item.active .item-title {
+      transform: translateY(0);
+      opacity: 1; }
+    /* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background: linear-gradient(transparent, #000);
+      z-index: 1; }

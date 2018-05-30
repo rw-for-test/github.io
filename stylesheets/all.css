@@ -7330,6 +7330,20 @@ ul {
   width: 100%;
   z-index: 3; }
 
+/* line 76, /Users/ruoshin/repos/test/source/stylesheets/shared/global.scss */
+.youtube-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0; }
+  /* line 81, /Users/ruoshin/repos/test/source/stylesheets/shared/global.scss */
+  .youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
 .btn {
   font-size: 14px;
@@ -7477,6 +7491,30 @@ ul {
   /* line 159, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-footer .action {
     margin-bottom: 20px; }
+
+/* line 166, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.carousel .carousel-control {
+  text-shadow: none; }
+  /* line 168, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .carousel .carousel-control.left, .carousel .carousel-control.right {
+    background: none; }
+/* line 172, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.carousel .carousel-indicators {
+  width: 1024px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: right;
+  z-index: 1; }
+  /* line 181, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .carousel .carousel-indicators li {
+    background: #fff;
+    opacity: 0.5; }
+    /* line 184, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .carousel .carousel-indicators li.active {
+      opacity: 1; }
 
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/shared/layout.scss */
 .l-header {
@@ -8019,28 +8057,15 @@ ul {
 .about-oh-study .content {
   margin-bottom: 20px; }
 /* line 24, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
-.about-oh-study .youtube-wrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0; }
-  /* line 29, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
-  .about-oh-study .youtube-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-/* line 37, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .service-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px; }
-  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .service-title > * {
     display: inline-block;
     vertical-align: middle; }
-  /* line 44, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 31, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .service-title:before {
     content: '';
     display: inline-block;
@@ -8050,17 +8075,17 @@ ul {
     background: url("/images/about/icn_point.png");
     background-size: cover;
     margin-right: 10px; }
-/* line 55, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 42, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-our-service {
   margin-top: 40px;
   margin-bottom: 40px; }
-  /* line 58, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 45, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-our-service .content {
     margin-left: 34px; }
-    /* line 60, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 47, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-our-service .content li {
       margin-bottom: 5px; }
-      /* line 62, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      /* line 49, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
       .about-oh-study .about-our-service .content li:before {
         content: '';
         display: block;
@@ -8071,33 +8096,33 @@ ul {
         border-radius: 8px;
         margin-top: 6px;
         margin-right: 10px; }
-      /* line 73, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      /* line 60, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
       .about-oh-study .about-our-service .content li span {
         display: block;
         overflow: hidden; }
-      /* line 77, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+      /* line 64, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
       .about-oh-study .about-our-service .content li:after {
         content: '';
         display: block;
         clear: both; }
-    /* line 83, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 70, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-our-service .content img {
       width: 100%;
       max-width: 540px;
       margin: 20px 0 60px; }
-/* line 90, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 77, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-advantage {
   background: #f2f5f7;
   padding: 40px 0; }
-  /* line 93, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 80, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage li {
     margin-bottom: 15px; }
-    /* line 95, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 82, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li span {
       line-height: 24px;
       overflow: hidden;
       display: block; }
-    /* line 100, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 87, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:before {
       content: '';
       display: block;
@@ -8106,24 +8131,24 @@ ul {
       height: 24px;
       background-size: cover;
       margin-right: 10px; }
-    /* line 109, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 96, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:after {
       content: '';
       display: block;
       clear: both; }
-    /* line 114, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+    /* line 101, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
     .about-oh-study .about-advantage li:last-child {
       margin-bottom: 0; }
-  /* line 120, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 107, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage .why-choose-us li:before {
     background-image: url("/images/about/icn_star.png"); }
-  /* line 127, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 114, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-advantage .consumer-guarantee li:before {
     background-image: url("/images/about/icn_promise.png"); }
-/* line 133, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+/* line 120, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
 .about-oh-study .about-team-members {
   padding: 40px 0; }
-  /* line 136, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
+  /* line 123, /Users/ruoshin/repos/test/source/stylesheets/about_oh_study.scss */
   .about-oh-study .about-team-members .member-list .member-card {
     display: inline-block;
     vertical-align: top;
@@ -8143,16 +8168,6 @@ ul {
     /* line 11, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
     #slider-banner .item .item-background-image.mobile-size {
       display: none; }
-/* line 16, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
-#slider-banner .carousel-control {
-  text-shadow: none; }
-  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
-  #slider-banner .carousel-control.left, #slider-banner .carousel-control.right {
-    background: none; }
-/* line 22, /Users/ruoshin/repos/test/source/stylesheets/index/slider_banner.scss */
-#slider-banner .carousel-indicators {
-  text-align: right;
-  z-index: 1; }
 
 /* line 2, /Users/ruoshin/repos/test/source/stylesheets/index/slider_events.scss */
 #slider-events .carousel-control {
@@ -8804,66 +8819,128 @@ ul {
 .oh-apply.america .oh-apply-header-tabs li.active a {
   color: #154188; }
 /* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.america #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_usa.png"); }
+/* line 29, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.canada .oh-apply-search-bar {
   background: #de1e37; }
-/* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 33, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.canada .oh-apply-header-tabs li.active a {
   color: #de1e37; }
-/* line 32, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 39, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.canada #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_canada.png"); }
+/* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.england .oh-apply-search-bar {
   background: #eda409; }
-/* line 36, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 50, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.england .oh-apply-header-tabs li.active a {
   color: #eda409; }
-/* line 42, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.england #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_uk.png"); }
+/* line 63, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.europe .oh-apply-search-bar {
   background: #ed6109; }
-/* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 67, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.europe .oh-apply-header-tabs li.active a {
   color: #ed6109; }
-/* line 52, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 73, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.europe #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_europe.png"); }
+/* line 80, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.new-zealand .oh-apply-search-bar {
   background: #8dc22c; }
-/* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 84, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.new-zealand .oh-apply-header-tabs li.active a {
   color: #8dc22c; }
-/* line 62, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 90, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.new-zealand #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_australia.png"); }
+/* line 97, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.australia .oh-apply-search-bar {
   background: #d70050; }
-/* line 66, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 101, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.australia .oh-apply-header-tabs li.active a {
   color: #d70050; }
-/* line 72, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 107, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.australia #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_australia.png"); }
+/* line 114, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.others .oh-apply-search-bar {
   background: #01a1a3; }
-/* line 76, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+/* line 118, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply.others .oh-apply-header-tabs li.active a {
   color: #01a1a3; }
+/* line 124, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply.others #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_asia.png"); }
 
-/* line 2, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-#oh-apply-slider .item {
-  height: 300px;
-  width: 100%; }
-  /* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-  #oh-apply-slider .item .item-background-image {
-    width: 100%;
-    height: 100%;
-    background: no-repeat center;
-    background-size: cover;
-    display: block; }
+/* line 1, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+#oh-apply-slider {
+  position: relative; }
+  /* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+  #oh-apply-slider .oh-apply-slider-header {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    z-index: 1; }
     /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-    #oh-apply-slider .item .item-background-image.mobile-size {
-      display: none; }
-/* line 16, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-#oh-apply-slider .carousel-control {
-  text-shadow: none; }
-  /* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-  #oh-apply-slider .carousel-control.left, #oh-apply-slider .carousel-control.right {
-    background: none; }
-/* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
-#oh-apply-slider .carousel-indicators {
-  text-align: right;
-  z-index: 1; }
+    #oh-apply-slider .oh-apply-slider-header:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 30px;
+      height: 30px;
+      background: no-repeat center;
+      background-size: cover;
+      margin-right: 6px; }
+    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .oh-apply-slider-header > * {
+      display: inline-block;
+      vertical-align: middle; }
+  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+  #oh-apply-slider .item {
+    height: 300px;
+    width: 100%; }
+    /* line 29, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item .item-title {
+      position: absolute;
+      top: 250px;
+      left: 0;
+      color: #fff;
+      font-size: 24px;
+      z-index: 2;
+      transform: translateY(50%);
+      opacity: 0;
+      transition: transform .2s .1s, opacity .2s .1s; }
+    /* line 40, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item .item-background-image {
+      width: 100%;
+      height: 100%;
+      background: no-repeat center;
+      background-size: cover;
+      display: block; }
+      /* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+      #oh-apply-slider .item .item-background-image.mobile-size {
+        display: none; }
+    /* line 51, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item.active .item-title {
+      transform: translateY(0);
+      opacity: 1; }
+    /* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_slider.scss */
+    #oh-apply-slider .item:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background: linear-gradient(transparent, #000);
+      z-index: 1; }
 
 /* line 3, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
 .oh-apply-search-bar {
@@ -9044,6 +9121,168 @@ ul {
     background: #de1e37;
     color: #fff;
     padding: 5px; }
+
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+.oh-apply-school-header .oh-apply-school-breadcrumb {
+  padding-top: 10px; }
+  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .oh-apply-school-breadcrumb > span:after {
+    content: ' / '; }
+  /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .oh-apply-school-breadcrumb > span:last-child:after {
+    content: ''; }
+/* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+.oh-apply-school-header .school-header {
+  padding: 20px 0; }
+  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .school-header > * {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .school-header .school-logo {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 1px solid #c5c6c8; }
+    /* line 30, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+    .oh-apply-school-header .school-header .school-logo img {
+      width: 100%;
+      height: 100%; }
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .school-header .school-name {
+    font-size: 24px;
+    font-weight: bold;
+    width: calc(100% - 130px);
+    padding-left: 20px; }
+
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail {
+  line-height: 1.7; }
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail .school-content img {
+    width: 100%;
+    margin-bottom: 20px; }
+  /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail .school-content .googlemap-wrapper {
+    margin: 40px 0; }
+
+/* line 17, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail-intro .school-content {
+  overflow: hidden; }
+/* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail-intro .school-information {
+  width: 300px;
+  background: #f2f5f7;
+  float: right;
+  padding: 20px;
+  margin-left: 20px; }
+  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail-intro .school-information .school-info-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+    /* line 30, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .school-info-title:first-child {
+      margin-top: 0; }
+  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail-intro .school-information .school-info-sub-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .school-info-sub-title:before {
+      content: '';
+      width: 4px;
+      height: 12px;
+      background: #de1e37;
+      display: inline-block;
+      margin-right: 2px; }
+  /* line 48, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail-intro .school-information .school-info-group .info-label {
+    color: #6f7075; }
+  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail-intro .school-information .note {
+    margin-top: 20px; }
+    /* line 55, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .note .note-item.highlight {
+      color: #de1e37; }
+  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  .school-detail-intro .school-information .social-media-share {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid #c5c6c8; }
+
+/* line 70, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail-course .content-title {
+  margin-top: 40px; }
+
+/* line 76, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail-discount .discount-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px; }
+/* line 80, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail-discount .discount-label {
+  color: #6f7075; }
+/* line 83, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+.school-detail-discount .discount-value {
+  font-weight: bold; }
+
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+.school-navigate-bar {
+  height: 50px;
+  line-height: 50px;
+  background: #154188;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); }
+  /* line 10, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+  .school-navigate-bar li {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 30px;
+    opacity: 0.7; }
+    /* line 15, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+    .school-navigate-bar li a {
+      color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1; }
+    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+    .school-navigate-bar li.active {
+      position: relative;
+      font-weight: bold;
+      opacity: 1; }
+      /* line 25, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+      .school-navigate-bar li.active:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 100%;
+        margin-left: -0.5em;
+        left: 50%;
+        box-sizing: border-box;
+        border: 5px solid black;
+        border-color: transparent transparent #154188 #154188;
+        transform-origin: 0 0;
+        transform: rotate(-45deg);
+        box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.07); }
+    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+    .school-navigate-bar li.discount {
+      opacity: 1; }
+      /* line 43, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+      .school-navigate-bar li.discount:before {
+        content: '';
+        background: url("/images/school/icn_discount_star.png") no-repeat center;
+        background-size: cover;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px; }
 
 /* line 4, /Users/ruoshin/repos/test/source/stylesheets/about/member_card.scss */
 .member-card {

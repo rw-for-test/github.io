@@ -145,3 +145,27 @@
   /* line 159, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
   .modal .modal-footer .action {
     margin-bottom: 20px; }
+
+/* line 166, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.carousel .carousel-control {
+  text-shadow: none; }
+  /* line 168, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .carousel .carousel-control.left, .carousel .carousel-control.right {
+    background: none; }
+/* line 172, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+.carousel .carousel-indicators {
+  width: 1024px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: right;
+  z-index: 1; }
+  /* line 181, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+  .carousel .carousel-indicators li {
+    background: #fff;
+    opacity: 0.5; }
+    /* line 184, /Users/ruoshin/repos/test/source/stylesheets/shared/bootstrap_overwrite.scss */
+    .carousel .carousel-indicators li.active {
+      opacity: 1; }

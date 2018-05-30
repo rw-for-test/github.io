@@ -1,0 +1,33 @@
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+.oh-apply-school-header .oh-apply-school-breadcrumb {
+  padding-top: 10px; }
+  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .oh-apply-school-breadcrumb > span:after {
+    content: ' / '; }
+  /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .oh-apply-school-breadcrumb > span:last-child:after {
+    content: ''; }
+/* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+.oh-apply-school-header .school-header {
+  padding: 20px 0; }
+  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .school-header > * {
+    display: inline-block;
+    vertical-align: middle; }
+  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .school-header .school-logo {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 1px solid #c5c6c8; }
+    /* line 30, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+    .oh-apply-school-header .school-header .school-logo img {
+      width: 100%;
+      height: 100%; }
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
+  .oh-apply-school-header .school-header .school-name {
+    font-size: 24px;
+    font-weight: bold;
+    width: calc(100% - 130px);
+    padding-left: 20px; }
