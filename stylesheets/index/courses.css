@@ -16,9 +16,8 @@
   text-align: left; }
   /* line 21, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
   .courses .course-box .course-articles li a {
-    display: block;
-    overflow: hidden; }
-  /* line 25, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+    outline: none; }
+  /* line 24, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
   .courses .course-box .course-articles li:before {
     content: '';
     display: block;
@@ -29,7 +28,7 @@
     background-size: cover;
     margin-top: 1px;
     margin-right: 5px; }
-  /* line 36, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
+  /* line 35, /Users/ruoshin/repos/test/source/stylesheets/index/courses.scss */
   .courses .course-box .course-articles li:after {
     content: '';
     clear: both;

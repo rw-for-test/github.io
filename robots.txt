@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://ohstudy.net/sitemap.xml

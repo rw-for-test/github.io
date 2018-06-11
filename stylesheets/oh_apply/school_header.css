@@ -27,7 +27,7 @@
       height: 100%; }
   /* line 35, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_header.scss */
   .oh-apply-school-header .school-header .school-name {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
     width: calc(100% - 130px);
     padding-left: 20px; }

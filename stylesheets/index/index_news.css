@@ -26,27 +26,30 @@
     overflow: hidden;
     white-space: nowrap; }
     /* line 31, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
-    .index-news .news-block .news-block-body .news-block-list li > a {
-      display: inline; }
-    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+    .index-news .news-block .news-block-body .news-block-list li .title {
+      cursor: pointer; }
+      /* line 33, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+      .index-news .news-block .news-block-body .news-block-list li .title:hover {
+        opacity: 0.5; }
+    /* line 37, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
     .index-news .news-block .news-block-body .news-block-list li:last-child {
       margin-bottom: 0; }
-  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  /* line 42, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
   .index-news .news-block .news-block-body .date {
     color: #6f7075;
     margin-right: 15px; }
-/* line 44, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+/* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block .news-block-footer {
   margin: 0 20px;
   border-top: 1px solid #c5c6c8; }
-  /* line 47, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+  /* line 50, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
   .index-news .news-block .news-block-footer a {
     color: #0898ff;
     margin-top: 10px;
     display: block; }
-/* line 54, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+/* line 57, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block.latest .news-block-header {
   background: #0629cc; }
-/* line 59, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
+/* line 62, /Users/ruoshin/repos/test/source/stylesheets/index/index_news.scss */
 .index-news .news-block.lecture-course .news-block-header {
   background: #de1e37; }

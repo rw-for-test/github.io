@@ -1,0 +1,22 @@
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/shared/horizontal_scroll_bar.scss */
+.horizontal-scroll-bar .arrows {
+  display: none; }
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/shared/horizontal_scroll_bar.scss */
+.horizontal-scroll-bar .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  margin-top: -2px; }
+  /* line 11, /Users/ruoshin/repos/test/source/stylesheets/shared/horizontal_scroll_bar.scss */
+  .horizontal-scroll-bar .arrow img {
+    width: 18px; }
+/* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/horizontal_scroll_bar.scss */
+.horizontal-scroll-bar .left-arrow {
+  left: 15px; }
+/* line 18, /Users/ruoshin/repos/test/source/stylesheets/shared/horizontal_scroll_bar.scss */
+.horizontal-scroll-bar .right-arrow {
+  right: 15px; }
+/* line 21, /Users/ruoshin/repos/test/source/stylesheets/shared/horizontal_scroll_bar.scss */
+.horizontal-scroll-bar .hidden {
+  display: none; }

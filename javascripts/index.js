@@ -1,3 +1,24 @@
+//validator
+$.fn.validator.Constructor.FOCUS_OFFSET = 120
+
+//wow.js
+new WOW({
+  offset: 100
+}).init();
+
+function detectmob() {
+  if(window.innerWidth <= 768) {
+   return true;
+  } else {
+   return false;
+  }
+}
+
+$(window).load(function(){
+  $(".se-pre-con").fadeOut("slow")
+  const headerHeight = $('.l-header').height()
+  const footerHeight = $('.l-footer').outerHeight()
+  const footerOffset = $('.l-footer').offset().top
 
 //Slider banner
 $('.carousel').carousel({
@@ -24,17 +45,18 @@ $('.index-navigate-bar-selector a').click(function(e){
   $('.index-navigate-bar-menu').toggleClass('open')
 })
 
+if(detectmob()){
+  $('.oh-apply.filter-module .sticky-bar').removeClass('sticky-bar is-sticky')
+}
+
 //Fix index navigate bar if scroll down
 const stickyBar = $('.sticky-bar')
-const headerHeight = $('.l-header').height()
-const footerHeight = $('.l-footer').height()
-const footerOffset = $('.l-footer').offset().top + 60
 if(stickyBar.length > 0){
   const offsetTop = stickyBar.offset().top - headerHeight
   $(window).scroll(function(){
     if (window.pageYOffset >= offsetTop) {
       stickyBar.addClass("is-sticky");
-      stickyBar.next().css('marginTop', '60px');
+      stickyBar.next().css('marginTop', stickyBar.outerHeight()+'px');
     } else {
       stickyBar.removeClass("is-sticky");
       stickyBar.next().css('marginTop', '0');
@@ -45,13 +67,13 @@ if(stickyBar.length > 0){
 //Open global search pop-up
 $('.index-navigate-bar .search').click(function(){
   $('#global-search').css('display', 'block');
-  $('body').css('overflow', 'hidden');
+  $('body').addClass('modal-open');
 })
 
 //Close global search pop-up
 $('#global-search .btn-close').click(function(){
   $('#global-search').css('display', 'none');
-  $('body').css('overflow', 'auto');
+  $('body').removeClass('modal-open');
 })
 
 //Back to top
@@ -70,15 +92,33 @@ $(window).scroll(function(){
   //Interaction of global link back to top button
   if ($(window).height() + $(window).scrollTop() >= footerOffset){
     const globalLinksOffset = $(window).height() + $(window).scrollTop() - footerOffset
-    $('.global-links .back-to-top').css('opacity', 0)
+    $('.global-links').removeClass('is-moving')
     $('.global-links').css('bottom', globalLinksOffset)
   }else{
-    $('.global-links .back-to-top').css('opacity', 1)
+    $('.global-links').addClass('is-moving')
   }
 
   if($(window).scrollTop() <= 10){
-    $('.global-links .back-to-top').css('opacity', 0)
+    $('.global-links').removeClass('is-moving')
   }
 })
 
+if(window.location.hash == '#chosen') {
+  const chosenOffest = $('#chosen').offset().top
+  $('html,body').animate({
+    scrollTop: chosenOffest
+  }, 500);
+}
+
+$('.sub-menu.search-school .sub-sub-menu').click(function(){
+  $(this).toggleClass('open')
+})
+
+$('.search-school-sub-menu').hover(function(){
+  $(this).prev().addClass('is-hover')
+}, function() {
+  $(this).prev().removeClass('is-hover');
+})
+
+})
 ;

@@ -1,0 +1,216 @@
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.america .school-navigate-bar {
+  background: #154188 !important; }
+  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .america .school-navigate-bar li.active:after {
+    border-color: transparent transparent #154188 #154188 !important; }
+  /* line 13, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .america .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(21, 65, 136, 0), #154188) !important; }
+  /* line 16, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .america .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(21, 65, 136, 0), #154188) !important; }
+/* line 20, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.america .oh-apply-search-bar {
+  background: #154188 !important; }
+/* line 24, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.america .oh-apply-header-tabs li.active a {
+  color: #154188 !important; }
+/* line 30, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.america #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_usa.png"); }
+/* line 35, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.america .country-bar {
+  background: #154188 !important; }
+  /* line 37, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .america .country-bar:before {
+    background: linear-gradient(270deg, rgba(21, 65, 136, 0), #154188) !important; }
+  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .america .country-bar:after {
+    background: linear-gradient(90deg, rgba(21, 65, 136, 0), #154188) !important; }
+
+/* line 46, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.canada .school-navigate-bar {
+  background: #de1e37 !important; }
+  /* line 50, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .canada .school-navigate-bar li.active:after {
+    border-color: transparent transparent #de1e37 #de1e37 !important; }
+  /* line 55, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .canada .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(222, 30, 55, 0), #de1e37) !important; }
+  /* line 58, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .canada .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(222, 30, 55, 0), #de1e37) !important; }
+/* line 62, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.canada .oh-apply-search-bar {
+  background: #de1e37 !important; }
+/* line 66, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.canada .oh-apply-header-tabs li.active a {
+  color: #de1e37 !important; }
+/* line 72, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.canada #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_canada.png"); }
+/* line 77, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.canada .country-bar {
+  background: #de1e37 !important; }
+  /* line 79, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .canada .country-bar:before {
+    background: linear-gradient(270deg, rgba(222, 30, 55, 0), #de1e37) !important; }
+  /* line 82, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .canada .country-bar:after {
+    background: linear-gradient(90deg, rgba(222, 30, 55, 0), #de1e37) !important; }
+
+/* line 88, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.england .school-navigate-bar {
+  background: #eda409 !important; }
+  /* line 92, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .england .school-navigate-bar li.active:after {
+    border-color: transparent transparent #eda409 #eda409 !important; }
+  /* line 97, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .england .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(237, 164, 9, 0), #eda409) !important; }
+  /* line 100, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .england .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(237, 164, 9, 0), #eda409) !important; }
+/* line 104, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.england .oh-apply-search-bar {
+  background: #eda409 !important; }
+/* line 108, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.england .oh-apply-header-tabs li.active a {
+  color: #eda409 !important; }
+/* line 114, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.england #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_uk.png"); }
+/* line 119, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.england .country-bar {
+  background: #eda409 !important; }
+  /* line 121, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .england .country-bar:before {
+    background: linear-gradient(270deg, rgba(237, 164, 9, 0), #eda409) !important; }
+  /* line 124, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .england .country-bar:after {
+    background: linear-gradient(90deg, rgba(237, 164, 9, 0), #eda409) !important; }
+
+/* line 130, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.europe .school-navigate-bar {
+  background: #ed6109 !important; }
+  /* line 134, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .europe .school-navigate-bar li.active:after {
+    border-color: transparent transparent #ed6109 #ed6109 !important; }
+  /* line 139, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .europe .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(237, 97, 9, 0), #ed6109) !important; }
+  /* line 142, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .europe .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(237, 97, 9, 0), #ed6109) !important; }
+/* line 146, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.europe .oh-apply-search-bar {
+  background: #ed6109 !important; }
+/* line 150, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.europe .oh-apply-header-tabs li.active a {
+  color: #ed6109 !important; }
+/* line 156, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.europe #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_europe.png"); }
+/* line 161, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.europe .country-bar {
+  background: #ed6109 !important; }
+  /* line 163, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .europe .country-bar:before {
+    background: linear-gradient(270deg, rgba(237, 97, 9, 0), #ed6109) !important; }
+  /* line 166, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .europe .country-bar:after {
+    background: linear-gradient(90deg, rgba(237, 97, 9, 0), #ed6109) !important; }
+
+/* line 172, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.new-zealand .school-navigate-bar {
+  background: #8dc22c !important; }
+  /* line 176, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .new-zealand .school-navigate-bar li.active:after {
+    border-color: transparent transparent #8dc22c #8dc22c !important; }
+  /* line 181, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .new-zealand .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(141, 194, 44, 0), #8dc22c) !important; }
+  /* line 184, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .new-zealand .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(141, 194, 44, 0), #8dc22c) !important; }
+/* line 188, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.new-zealand .oh-apply-search-bar {
+  background: #8dc22c !important; }
+/* line 192, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.new-zealand .oh-apply-header-tabs li.active a {
+  color: #8dc22c !important; }
+/* line 198, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.new-zealand #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_australia.png"); }
+/* line 203, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.new-zealand .country-bar {
+  background: #8dc22c !important; }
+  /* line 205, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .new-zealand .country-bar:before {
+    background: linear-gradient(270deg, rgba(141, 194, 44, 0), #8dc22c) !important; }
+  /* line 208, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .new-zealand .country-bar:after {
+    background: linear-gradient(90deg, rgba(141, 194, 44, 0), #8dc22c) !important; }
+
+/* line 214, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.australia .school-navigate-bar {
+  background: #d70050 !important; }
+  /* line 218, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .australia .school-navigate-bar li.active:after {
+    border-color: transparent transparent #d70050 #d70050 !important; }
+  /* line 223, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .australia .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(215, 0, 80, 0), #d70050) !important; }
+  /* line 226, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .australia .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(215, 0, 80, 0), #d70050) !important; }
+/* line 230, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.australia .oh-apply-search-bar {
+  background: #d70050 !important; }
+/* line 234, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.australia .oh-apply-header-tabs li.active a {
+  color: #d70050 !important; }
+/* line 240, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.australia #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_australia.png"); }
+/* line 245, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.australia .country-bar {
+  background: #d70050 !important; }
+  /* line 247, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .australia .country-bar:before {
+    background: linear-gradient(270deg, rgba(215, 0, 80, 0), #d70050) !important; }
+  /* line 250, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .australia .country-bar:after {
+    background: linear-gradient(90deg, rgba(215, 0, 80, 0), #d70050) !important; }
+
+/* line 256, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.asia .school-navigate-bar {
+  background: #01a1a3 !important; }
+  /* line 260, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .asia .school-navigate-bar li.active:after {
+    border-color: transparent transparent #01a1a3 #01a1a3 !important; }
+  /* line 265, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .asia .school-navigate-bar:before {
+    background: linear-gradient(270deg, rgba(1, 161, 163, 0), #01a1a3) !important; }
+  /* line 268, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .asia .school-navigate-bar:after {
+    background: linear-gradient(90deg, rgba(1, 161, 163, 0), #01a1a3) !important; }
+/* line 272, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.asia .oh-apply-search-bar {
+  background: #01a1a3 !important; }
+/* line 276, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.asia .oh-apply-header-tabs li.active a {
+  color: #01a1a3 !important; }
+/* line 282, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.asia #oh-apply-slider .oh-apply-slider-header:before {
+  background-image: url("/images/school/icn_asia.png"); }
+/* line 287, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+.asia .country-bar {
+  background: #01a1a3 !important; }
+  /* line 289, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .asia .country-bar:before {
+    background: linear-gradient(270deg, rgba(1, 161, 163, 0), #01a1a3) !important; }
+  /* line 292, /Users/ruoshin/repos/test/source/stylesheets/shared/country_colors.scss */
+  .asia .country-bar:after {
+    background: linear-gradient(90deg, rgba(1, 161, 163, 0), #01a1a3) !important; }

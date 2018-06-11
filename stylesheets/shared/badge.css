@@ -3,41 +3,41 @@
   padding: 6px 8px;
   border-radius: 3px;
   font-weight: normal;
-  margin-right: 6px;
-  background: #232941; }
+  background: #232941;
+  margin-right: 8px; }
   /* line 9, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.hot {
-    background: #9013FE; }
+    background: #9013FE !important; }
   /* line 12, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.england {
-    background: #eda409; }
+    background: #eda409 !important; }
   /* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.europe {
-    background: #ed6109; }
+    background: #ed6109 !important; }
   /* line 18, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.asia {
-    background: #01a1a3; }
+    background: #01a1a3 !important; }
   /* line 21, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.canada {
-    background: #de1e37; }
+    background: #de1e37 !important; }
   /* line 24, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.new-zealand {
-    background: #8dc22c; }
+    background: #8dc22c !important; }
   /* line 27, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.america {
-    background: #154188; }
+    background: #154188 !important; }
   /* line 30, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.australia {
-    background: #d70050; }
+    background: #d70050 !important; }
   /* line 33, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.taipei {
-    background: #0629cc; }
+    background: #0629cc !important; }
   /* line 36, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.hsinchu {
-    background: #de1e37; }
+    background: #de1e37 !important; }
   /* line 39, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
   .badge.taichung {
-    background: #ffb90c; }
+    background: #ffb90c !important; }
   /* line 42, /Users/ruoshin/repos/test/source/stylesheets/shared/badge.scss */
-  .badge.kaohsuing {
-    background: #0898ff; }
+  .badge.kaohsiung {
+    background: #0898ff !important; }

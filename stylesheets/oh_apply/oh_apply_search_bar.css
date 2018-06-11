@@ -18,8 +18,35 @@
       margin-right: 20px; }
   /* line 23, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
   .oh-apply-search-bar .selector-advance .oh-apply-selector-options {
-    width: 450px; }
-  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+    width: 450px;
+    left: auto;
+    right: 0; }
+    /* line 27, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+    .oh-apply-search-bar .selector-advance .oh-apply-selector-options .sub-row {
+      padding-left: 20px;
+      margin-bottom: 10px; }
+      /* line 30, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+      .oh-apply-search-bar .selector-advance .oh-apply-selector-options .sub-row .field-label {
+        margin-top: 0; }
+    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+    .oh-apply-search-bar .selector-advance .oh-apply-selector-options .btn-primary {
+      margin-top: 20px; }
+  /* line 39, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
   .oh-apply-search-bar .selector-popular {
     border-left: 1px solid rgba(255, 255, 255, 0.3);
     padding-left: 20px; }
+    /* line 42, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+    .oh-apply-search-bar .selector-popular .oh-apply-selector-options {
+      width: 600px;
+      left: auto;
+      right: 0; }
+      /* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+      .oh-apply-search-bar .selector-popular .oh-apply-selector-options a {
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        margin-right: 30px;
+        padding: 5px 0; }
+  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_search_bar.scss */
+  .oh-apply-search-bar .selector-costs .oh-apply-selector-options {
+    width: 200px; }

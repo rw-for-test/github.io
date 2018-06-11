@@ -6,13 +6,16 @@
   background-size: cover;
   background-position: center center; }
   /* line 9, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
-  .banner h3 {
+  .banner h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    color: #fff; }
-  /* line 16, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
+    color: #fff;
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center; }
+  /* line 19, /Users/ruoshin/repos/test/source/stylesheets/shared/banner.scss */
   .banner:before {
     content: '';
     position: absolute;

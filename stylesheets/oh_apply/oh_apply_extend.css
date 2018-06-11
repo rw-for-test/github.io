@@ -1,0 +1,7 @@
+/* line 2, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_extend.scss */
+.oh-apply-extend .extend-section {
+  position: relative; }
+/* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply_extend.scss */
+.oh-apply-extend #chosen {
+  position: absolute;
+  top: -220px; }

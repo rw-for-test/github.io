@@ -1,39 +1,60 @@
 /* line 4, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail {
+  padding-top: 40px;
   line-height: 1.7; }
-  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail .school-content img {
     width: 100%;
     margin-bottom: 20px; }
-  /* line 11, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail .school-content .googlemap-wrapper {
     margin: 40px 0; }
 
-/* line 17, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+/* line 18, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail-intro .school-content {
   overflow: hidden; }
-/* line 20, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+/* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail-intro .school-information {
   width: 300px;
   background: #f2f5f7;
   float: right;
   padding: 20px;
   margin-left: 20px; }
-  /* line 26, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  /* line 27, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail-intro .school-information .school-info-title {
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px; }
-    /* line 30, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    /* line 31, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
     .school-detail-intro .school-information .school-info-title:first-child {
       margin-top: 0; }
-  /* line 34, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    /* line 34, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .school-info-title:before {
+      content: '';
+      width: 16px;
+      height: 16px;
+      background: no-repeat center;
+      background-size: cover;
+      display: block;
+      float: left;
+      margin-top: 7px;
+      margin-right: 5px; }
+    /* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .school-info-title.location:before {
+      background-image: url("/images/school/img_school_location.png"); }
+    /* line 51, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .school-info-title.infomation:before {
+      background-image: url("/images/school/img_school_info.png"); }
+    /* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    .school-detail-intro .school-information .school-info-title.expense:before {
+      background-image: url("/images/school/img_school_fee.png"); }
+  /* line 61, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail-intro .school-information .school-info-sub-title {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px; }
-    /* line 38, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    /* line 65, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
     .school-detail-intro .school-information .school-info-sub-title:before {
       content: '';
       width: 4px;
@@ -41,34 +62,34 @@
       background: #de1e37;
       display: inline-block;
       margin-right: 2px; }
-  /* line 48, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  /* line 75, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail-intro .school-information .school-info-group .info-label {
     color: #6f7075; }
-  /* line 52, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  /* line 79, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail-intro .school-information .note {
     margin-top: 20px; }
-    /* line 55, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+    /* line 82, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
     .school-detail-intro .school-information .note .note-item.highlight {
       color: #de1e37; }
-  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+  /* line 87, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
   .school-detail-intro .school-information .social-media-share {
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
     border-top: 1px solid #c5c6c8; }
 
-/* line 70, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+/* line 97, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail-course .content-title {
   margin-top: 40px; }
 
-/* line 76, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+/* line 103, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail-discount .discount-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px; }
-/* line 80, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+/* line 107, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail-discount .discount-label {
   color: #6f7075; }
-/* line 83, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
+/* line 110, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_detail.scss */
 .school-detail-discount .discount-value {
   font-weight: bold; }

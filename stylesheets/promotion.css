@@ -1,0 +1,19 @@
+/* line 4, /Users/ruoshin/repos/test/source/stylesheets/promotion.scss */
+.promotion {
+  padding-bottom: 40px; }
+  /* line 6, /Users/ruoshin/repos/test/source/stylesheets/promotion.scss */
+  .promotion .banner {
+    background-image: url("/images/about/img_about.png"); }
+  /* line 9, /Users/ruoshin/repos/test/source/stylesheets/promotion.scss */
+  .promotion .promotion-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 40px 0; }
+  /* line 14, /Users/ruoshin/repos/test/source/stylesheets/promotion.scss */
+  .promotion .content {
+    margin-bottom: 20px; }
+    /* line 16, /Users/ruoshin/repos/test/source/stylesheets/promotion.scss */
+    .promotion .content img {
+      width: 100%;
+      margin-bottom: 40px; }

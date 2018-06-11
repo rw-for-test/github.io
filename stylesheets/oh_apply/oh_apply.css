@@ -1,70 +1,12 @@
 /* line 5, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
 .oh-apply .banner {
-  height: 300px; }
-  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+  height: 300px;
+  background-image: url("/images/school/img_school_general.png"); }
+  /* line 8, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
   .oh-apply .banner h3 {
     font-size: 32px;
     font-weight: bold; }
-/* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.america .oh-apply-search-bar {
-  background: #154188; }
-/* line 16, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.america .oh-apply-header-tabs li.active a {
-  color: #154188; }
-/* line 22, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.america #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_usa.png"); }
-/* line 29, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.canada .oh-apply-search-bar {
+
+/* line 15, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
+.oh-apply-esl .oh-apply-search-bar {
   background: #de1e37; }
-/* line 33, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.canada .oh-apply-header-tabs li.active a {
-  color: #de1e37; }
-/* line 39, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.canada #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_canada.png"); }
-/* line 46, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.england .oh-apply-search-bar {
-  background: #eda409; }
-/* line 50, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.england .oh-apply-header-tabs li.active a {
-  color: #eda409; }
-/* line 56, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.england #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_uk.png"); }
-/* line 63, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.europe .oh-apply-search-bar {
-  background: #ed6109; }
-/* line 67, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.europe .oh-apply-header-tabs li.active a {
-  color: #ed6109; }
-/* line 73, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.europe #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_europe.png"); }
-/* line 80, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.new-zealand .oh-apply-search-bar {
-  background: #8dc22c; }
-/* line 84, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.new-zealand .oh-apply-header-tabs li.active a {
-  color: #8dc22c; }
-/* line 90, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.new-zealand #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_australia.png"); }
-/* line 97, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.australia .oh-apply-search-bar {
-  background: #d70050; }
-/* line 101, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.australia .oh-apply-header-tabs li.active a {
-  color: #d70050; }
-/* line 107, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.australia #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_australia.png"); }
-/* line 114, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.others .oh-apply-search-bar {
-  background: #01a1a3; }
-/* line 118, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.others .oh-apply-header-tabs li.active a {
-  color: #01a1a3; }
-/* line 124, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/oh_apply.scss */
-.oh-apply.others #oh-apply-slider .oh-apply-slider-header:before {
-  background-image: url("/images/school/icn_asia.png"); }

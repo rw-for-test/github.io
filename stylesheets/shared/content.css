@@ -3,23 +3,24 @@
   padding-top: 40px; }
   /* line 6, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-wrapper img {
+    width: 100%;
     margin: 40px auto; }
 
-/* line 10, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 11, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-header-title {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px; }
 
-/* line 14, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 15, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-header-intro {
   margin: 0; }
 
-/* line 17, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 18, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-title {
   font-size: 24px;
   margin-bottom: 20px; }
-  /* line 20, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 21, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-title:before {
     content: '';
     width: 6px;
@@ -28,7 +29,7 @@
     display: inline-block;
     margin-right: 6px; }
 
-/* line 30, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 31, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-sub-title {
   font-size: 18px;
   font-weight: bold;
@@ -36,67 +37,73 @@
   margin-top: 20px;
   margin-bottom: 20px; }
 
-/* line 37, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 38, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-table {
   width: 100%;
   margin-bottom: 40px; }
-  /* line 40, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 41, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table .content-table-title {
     font-weight: bold;
     width: 30%; }
-    /* line 43, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    /* line 44, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
     .content-table .content-table-title.t-lg {
       width: 50%; }
-    /* line 46, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    /* line 47, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
     .content-table .content-table-title.t-full-width {
       width: 100%; }
-    /* line 50, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    /* line 51, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
     .content-table .content-table-title:hover .title-with-badge {
       opacity: 0.5; }
-  /* line 55, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 56, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table .badge {
     float: left;
     margin-right: 10px; }
-  /* line 59, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 60, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table .title-with-badge {
     overflow: hidden;
-    display: block; }
-  /* line 63, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    display: block;
+    line-height: 1.7; }
+  /* line 65, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table .datetime {
     width: 107px; }
-  /* line 66, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 68, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table .modal-toggler {
     cursor: pointer; }
-  /* line 69, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 71, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table tr {
     border-bottom: 1px solid #c5c6c8; }
-    /* line 72, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    /* line 74, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
     .content-table tr:first-child td {
       padding-top: 0; }
-    /* line 76, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    /* line 78, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
     .content-table tr:last-child {
       border-bottom: none; }
-  /* line 80, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 82, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-table td {
     vertical-align: top;
-    padding: 20px 0; }
+    padding: 20px 5px; }
 
-/* line 86, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 88, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-menu {
   float: left;
   margin-right: 100px; }
-  /* line 89, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
-  .content-menu > li {
+  /* line 91, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  .content-menu li {
     font-size: 18px;
     padding-left: 16px;
-    padding-bottom: 10px; }
-    /* line 93, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
-    .content-menu > li.active {
+    padding-bottom: 10px;
+    transition: font-size .2s; }
+    /* line 96, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    .content-menu li:hover {
+      font-size: 22px;
+      font-weight: bold; }
+    /* line 100, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+    .content-menu li.active {
       font-size: 24px;
       font-weight: bold;
       padding-left: 0; }
-      /* line 96, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
-      .content-menu > li.active:before {
+      /* line 103, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+      .content-menu li.active:before {
         content: '';
         width: 6px;
         height: 18px;
@@ -104,10 +111,10 @@
         display: inline-block;
         margin-right: 10px; }
 
-/* line 108, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+/* line 115, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
 .content-list {
   overflow: hidden; }
-  /* line 110, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
+  /* line 117, /Users/ruoshin/repos/test/source/stylesheets/shared/content.scss */
   .content-list .content-table {
     vertical-align: middle;
     padding: 0;

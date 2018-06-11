@@ -1,28 +1,26 @@
 /* line 4, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
 .school-navigate-bar {
-  height: 50px;
-  line-height: 50px;
   background: #154188;
-  margin-bottom: 40px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); }
-  /* line 10, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+  /* line 7, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
   .school-navigate-bar li {
     font-size: 18px;
     display: inline-block;
     margin-right: 30px;
     opacity: 0.7; }
-    /* line 15, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+    /* line 12, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
     .school-navigate-bar li a {
       color: #fff;
       display: inline-block;
       vertical-align: middle;
-      line-height: 1; }
-    /* line 21, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+      line-height: 1;
+      padding: 21px 0; }
+    /* line 19, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
     .school-navigate-bar li.active {
       position: relative;
       font-weight: bold;
       opacity: 1; }
-      /* line 25, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+      /* line 23, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
       .school-navigate-bar li.active:after {
         content: '';
         position: absolute;
@@ -37,16 +35,13 @@
         transform-origin: 0 0;
         transform: rotate(-45deg);
         box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.07); }
-    /* line 41, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
-    .school-navigate-bar li.discount {
-      opacity: 1; }
-      /* line 43, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
-      .school-navigate-bar li.discount:before {
-        content: '';
-        background: url("/images/school/icn_discount_star.png") no-repeat center;
-        background-size: cover;
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 5px; }
+    /* line 40, /Users/ruoshin/repos/test/source/stylesheets/oh_apply/school_navigate_bar.scss */
+    .school-navigate-bar li.discount:before {
+      content: '';
+      background: url("/images/school/icn_discount_star.png") no-repeat center;
+      background-size: cover;
+      width: 22px;
+      height: 22px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px; }

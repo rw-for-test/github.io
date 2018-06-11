@@ -11,7 +11,18 @@ $('.oh-apply-selector').click(function(e){
   }
   e.stopPropagation();
   $(this).toggleClass('is-open');
+  if(detectmob()){
+    $('.l-header').css('z-index', 1);
+  }
 })
+$('.oh-apply-selector .close').click(function(e){
+  e.stopPropagation();
+  $('.oh-apply-selector').removeClass('is-open');
+  if(detectmob()){
+    $('.l-header').css('z-index', 5);
+  }
+})
+
 $('.selector-advance .oh-apply-selector-options').click(function(e){
   e.stopPropagation();
 })
